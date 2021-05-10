@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/coures2/connect.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库">
+      <change afterPath="$PROJECT_DIR$/coures2/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coures2/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/coures2/connect.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,7 @@
       <workItem from="1620186932377" duration="602000" />
       <workItem from="1620552160704" duration="310000" />
       <workItem from="1620634930475" duration="33000" />
+      <workItem from="1620634970805" duration="1657000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620118265499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PDO操作数据库">
+      <created>1620635012815</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620635012815</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加数据库基本常识.md" />
     <MESSAGE value="更新数据库基本常识.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新数据库基本常识.md" />
+    <MESSAGE value="PDO操作数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

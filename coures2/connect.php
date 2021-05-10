@@ -1,16 +1,14 @@
 <?php
 
-$db = [
-    'type' => 'mysql',
-    'host' => '127.0.0.1',
-    'dbname' => 'test',
-    'username' => 'root',
-    'password' => 'root'
-];
+require 'database.php';
 
 $dsn = "{$db['type']}:host={$db['host']};dbname={$db['dbname']}";
 
-$pdo = new PDO( $dsn,$db['username'],$db['password']);
+try {
+    $pdo = new PDO( $dsn,$db['username'],$db['password']);
+}   catch (PDOException $e) {
+    die('Connection Failed' . $e->getMessage());
+}
+
 
 var_dump($pdo);
-?>
