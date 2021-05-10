@@ -1,6 +1,6 @@
 <?php
 
-require 'database.php';
+$db = require 'database.php';
 
 $dsn = "{$db['type']}:host={$db['host']};dbname={$db['dbname']}";
 
