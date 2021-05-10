@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新数据库基本常识.md">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/coures2/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1s1slxR63SGHtFAQbvTjBLQvkR8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,6 +37,20 @@
   <component name="PsalmProjectConfiguration">
     <option name="selectedConfigurationId" value="局部" />
   </component>
+  <component name="RunManager" selected="JavaScript 调试.connect.php">
+    <configuration name="connect.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/connect.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.connect.php" />
+        <item itemvalue="JavaScript 调试.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -48,6 +64,8 @@
       <workItem from="1620116307024" duration="157000" />
       <workItem from="1620116470732" duration="2228000" />
       <workItem from="1620186932377" duration="602000" />
+      <workItem from="1620552160704" duration="310000" />
+      <workItem from="1620634930475" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
