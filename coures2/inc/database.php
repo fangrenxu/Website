@@ -3,7 +3,7 @@
 return [
     'type' => 'mysql',
     'host' => '127.0.0.1',
-    'dbname' => 'test',
+    'dbname' => 'php',
     'username' => 'root',
     'password' => 'admin'
 ];
