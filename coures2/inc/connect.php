@@ -11,4 +11,4 @@ try {
 }
 
 
-var_dump($pdo);
+//var_dump($pdo);//测试语句
