@@ -6,9 +6,9 @@ $dsn = "{$db['type']}:host={$db['host']};dbname={$db['dbname']}";
 
 try {
     $pdo = new PDO( $dsn,$db['username'],$db['password']);
+    echo '数据库连接成功';
+    $pdo = null;
 }   catch (PDOException $e) {
     die('Connection Failed' . $e->getMessage());
 }
-
-
-//var_dump($pdo);//测试语句
+?>
