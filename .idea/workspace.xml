@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库——更新">
-      <change afterPath="$PROJECT_DIR$/coures2/select1.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库——一次读取一条记录">
+      <change afterPath="$PROJECT_DIR$/coures2/select2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +46,14 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.select1.php">
+  <component name="RunManager" selected="JavaScript 调试.select2.php">
     <configuration name="select1.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/select1.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="update.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/update.php" useBuiltInWebServerPort="true">
+    <configuration name="select2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/select2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="insert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/insert.php">
+    <configuration name="update.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/update.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="select1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/select1.php">
@@ -64,11 +64,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.select2.php" />
         <item itemvalue="PHP 脚本.select1.php" />
         <item itemvalue="JavaScript 调试.select1.php" />
         <item itemvalue="PHP 脚本.update.php" />
         <item itemvalue="JavaScript 调试.update.php" />
-        <item itemvalue="PHP 脚本.insert.php" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +94,7 @@
       <workItem from="1620807996530" duration="97000" />
       <workItem from="1620808098836" duration="66000" />
       <workItem from="1620808170297" duration="11907000" />
-      <workItem from="1620888224680" duration="9101000" />
+      <workItem from="1620888224680" duration="9801000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620905019429</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="PDO操作数据库——一次读取一条记录">
+      <created>1620909060328</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620909060328</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +252,8 @@
     <MESSAGE value="PDO操作数据库连接" />
     <MESSAGE value="PDO操作数据库&#10;1. 连接数据库&#10;2. 创建SQL语句模板&#10;3. 创建SQL语句对象：预处理对象 PDOStatment&#10;4. 将变量绑定到SQL语句的模板上&#10;5. 执行SQL语句&#10;6. 关闭连接" />
     <MESSAGE value="PDO操作数据库——更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库——更新" />
+    <MESSAGE value="PDO操作数据库——一次读取一条记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库——一次读取一条记录" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
