@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库连接">
-      <change afterPath="$PROJECT_DIR$/coures2/insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库&#10;1. 连接数据库&#10;2. 创建SQL语句模板&#10;3. 创建SQL语句对象：预处理对象 PDOStatment&#10;4. 将变量绑定到SQL语句的模板上&#10;5. 执行SQL语句&#10;6. 关闭连接">
+      <change afterPath="$PROJECT_DIR$/coures2/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/coures2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -40,26 +38,34 @@
     <option name="selectedConfigurationId" value="局部" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\php\coures2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\phpstudy_pro\WWW\php\coures2" />
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.insert.php">
+  <component name="RunManager" selected="PHP 脚本.update.php">
     <configuration name="connect.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/inc/connect.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="database.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/inc/database.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
+    <configuration name="update.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/update.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="insert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/insert.php">
       <method v="2" />
     </configuration>
+    <configuration name="update.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/update.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.update.php" />
+        <item itemvalue="JavaScript 调试.update.php" />
         <item itemvalue="PHP 脚本.insert.php" />
         <item itemvalue="JavaScript 调试.connect.php" />
         <item itemvalue="JavaScript 调试.database.php" />
@@ -88,7 +94,7 @@
       <workItem from="1620807996530" duration="97000" />
       <workItem from="1620808098836" duration="66000" />
       <workItem from="1620808170297" duration="11907000" />
-      <workItem from="1620888224680" duration="2348000" />
+      <workItem from="1620888224680" duration="5669000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -195,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620824773187</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="PDO操作数据库&#10;1. 连接数据库&#10;2. 创建SQL语句模板&#10;3. 创建SQL语句对象：预处理对象 PDOStatment&#10;4. 将变量绑定到SQL语句的模板上&#10;5. 执行SQL语句&#10;6. 关闭连接">
+      <created>1620896769773</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620896769773</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +236,8 @@
     <MESSAGE value="更新数据库配置文件" />
     <MESSAGE value="PDO操作数据库" />
     <MESSAGE value="PDO操作数据库连接" />
-    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库连接" />
+    <MESSAGE value="PDO操作数据库&#10;1. 连接数据库&#10;2. 创建SQL语句模板&#10;3. 创建SQL语句对象：预处理对象 PDOStatment&#10;4. 将变量绑定到SQL语句的模板上&#10;5. 执行SQL语句&#10;6. 关闭连接" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库&#10;1. 连接数据库&#10;2. 创建SQL语句模板&#10;3. 创建SQL语句对象：预处理对象 PDOStatment&#10;4. 将变量绑定到SQL语句的模板上&#10;5. 执行SQL语句&#10;6. 关闭连接" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
