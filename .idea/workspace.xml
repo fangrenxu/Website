@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新数据库配置文件">
-      <change afterPath="$PROJECT_DIR$/coures2/inc/pdo.md" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库连接">
+      <change afterPath="$PROJECT_DIR$/coures2/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +41,28 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\php\coures2" />
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.connect.php">
+  <component name="RunManager" selected="PHP 脚本.insert.php">
     <configuration name="connect.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/inc/connect.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="database.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/inc/database.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="insert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/insert.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.insert.php" />
         <item itemvalue="JavaScript 调试.connect.php" />
-        <item itemvalue="JavaScript 调试.index.php" />
+        <item itemvalue="JavaScript 调试.database.php" />
       </list>
     </recent_temporary>
   </component>
@@ -72,7 +82,13 @@
       <workItem from="1620552160704" duration="310000" />
       <workItem from="1620634930475" duration="33000" />
       <workItem from="1620634970805" duration="3279000" />
-      <workItem from="1620712183765" duration="5657000" />
+      <workItem from="1620712183765" duration="7258000" />
+      <workItem from="1620790411637" duration="2387000" />
+      <workItem from="1620799539995" duration="1171000" />
+      <workItem from="1620807996530" duration="97000" />
+      <workItem from="1620808098836" duration="66000" />
+      <workItem from="1620808170297" duration="11907000" />
+      <workItem from="1620888224680" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -151,7 +167,35 @@
       <option name="project" value="LOCAL" />
       <updated>1620721063258</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="PDO操作数据库">
+      <created>1620732454572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620732454572</updated>
+    </task>
+    <task id="LOCAL-00013" summary="PDO操作数据库连接">
+      <created>1620819208792</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620819208792</updated>
+    </task>
+    <task id="LOCAL-00014" summary="PDO操作数据库连接">
+      <created>1620823078202</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620823078202</updated>
+    </task>
+    <task id="LOCAL-00015" summary="PDO操作数据库连接">
+      <created>1620824773187</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620824773187</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,13 +216,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加数据库基本常识.md" />
     <MESSAGE value="更新数据库基本常识.md" />
-    <MESSAGE value="PDO操作数据库" />
     <MESSAGE value="更新PDO操作数据库" />
     <MESSAGE value="数据库配置文件" />
     <MESSAGE value="優化代碼" />
     <MESSAGE value="移动文件位置" />
     <MESSAGE value="更新数据库配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新数据库配置文件" />
+    <MESSAGE value="PDO操作数据库" />
+    <MESSAGE value="PDO操作数据库连接" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库连接" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
