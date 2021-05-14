@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库——删除数据">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="数据库管理网站动态数据文档">
+      <change afterPath="$PROJECT_DIR$/coures2/lesson1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coures2/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/coures2/inc/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +48,14 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.delete.php">
+  <component name="RunManager" selected="JavaScript 调试.index.php">
     <configuration name="delete.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/delete.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="header.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/inc/header.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="delete.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/delete.php">
@@ -56,19 +64,13 @@
     <configuration name="insert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/insert.php">
       <method v="2" />
     </configuration>
-    <configuration name="select3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/select3.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="update.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/update.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.index.php" />
+        <item itemvalue="JavaScript 调试.header.php" />
         <item itemvalue="PHP 脚本.delete.php" />
         <item itemvalue="PHP 脚本.insert.php" />
         <item itemvalue="JavaScript 调试.delete.php" />
-        <item itemvalue="PHP 脚本.select3.php" />
-        <item itemvalue="PHP 脚本.update.php" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +104,9 @@
       <workItem from="1620910311428" duration="1826000" />
       <workItem from="1620970899235" duration="9000" />
       <workItem from="1620970916970" duration="251000" />
-      <workItem from="1620971175569" duration="4279000" />
+      <workItem from="1620971175569" duration="5956000" />
+      <workItem from="1620982384550" duration="2000" />
+      <workItem from="1620982388510" duration="2486000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -258,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620975141846</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="数据库管理网站动态数据文档">
+      <created>1620980459186</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1620980459186</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +303,8 @@
     <MESSAGE value="PDO操作数据库——一次读取一个结果集（多条数据）" />
     <MESSAGE value="PDO操作数据库——将结果集中的字段绑定到指定变量上" />
     <MESSAGE value="PDO操作数据库——删除数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库——删除数据" />
+    <MESSAGE value="数据库管理网站动态数据文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库管理网站动态数据文档" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
