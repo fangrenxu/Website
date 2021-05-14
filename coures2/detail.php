@@ -2,7 +2,7 @@
 //加载被分离出去的公共头部
 include __DIR__ . '/inc/header.php';
 //获取当前要访问的影视剧 id
-$mov_id = intval($_GET['mov_id']);
+$mov_id = $_GET['mov_id'];
 
 foreach ($movies as $movie) {
     if ($movie['mov_id'] === $mov_id) {
