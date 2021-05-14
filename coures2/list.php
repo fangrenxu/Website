@@ -4,12 +4,7 @@ include __DIR__ . '/inc/header.php';
 //获取当前要访问的栏目 id
 $cate_id = $_GET['cate_id'];
 
-//$cate_id = (int)$cate_id;
-// 将数字字符串转为整数类型
-$cate_id = intval($cate_id);
-
-
-
+// 因为是从数据库直接读取数值，所以不用将数字字符串转为整数类型
 foreach ($cates as $cate) {
     if ($cate['cate_id'] === $cate_id) {
         echo "<h2>{$cate['alias']}</h2>";
