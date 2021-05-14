@@ -25,7 +25,7 @@ $stmt->execute();
 //fetch():从结果集中
 while($stmt->fetch(PDO::FETCH_ASSOC)){
     $detail = mb_substr($detail,0,20,'utf-8');
-    echo $detail,'<br>';
+    echo '<span style="color: red">片名</span>：' . $name. '<br>'.'简介：' . $detail . '<hr>';
 }
 
 

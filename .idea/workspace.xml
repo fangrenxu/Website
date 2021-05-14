@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库——一次读取一个结果集（多条数据）">
-      <change afterPath="$PROJECT_DIR$/coures2/select3.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="PDO操作数据库——将结果集中的字段绑定到指定变量上">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coures2/select3.php" beforeDir="false" afterPath="$PROJECT_DIR$/coures2/select3.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/coures2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -102,7 +103,7 @@
       <workItem from="1620910311428" duration="1826000" />
       <workItem from="1620970899235" duration="9000" />
       <workItem from="1620970916970" duration="251000" />
-      <workItem from="1620971175569" duration="706000" />
+      <workItem from="1620971175569" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620909769076</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="PDO操作数据库——将结果集中的字段绑定到指定变量上">
+      <created>1620971919972</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620971919972</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +277,8 @@
     <MESSAGE value="PDO操作数据库——更新" />
     <MESSAGE value="PDO操作数据库——一次读取一条记录" />
     <MESSAGE value="PDO操作数据库——一次读取一个结果集（多条数据）" />
-    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库——一次读取一个结果集（多条数据）" />
+    <MESSAGE value="PDO操作数据库——将结果集中的字段绑定到指定变量上" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDO操作数据库——将结果集中的字段绑定到指定变量上" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
