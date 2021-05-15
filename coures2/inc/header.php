@@ -19,6 +19,8 @@ $sql = 'SELECT * FROM `system` LIMIT 1';
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $system = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+$pdo = null;//所有数据都拿到之后，关闭数据库连接
 ?>
 
 <!doctype html>
