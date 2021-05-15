@@ -29,7 +29,7 @@ $system = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!--    //网站描述-->
     <meta name="description" content="<?php echo $system['desc'] ?>">
     <meta name="keywords" content="<?php echo $system['key'] ?>">
-    <title><?php echo $system['title'] ?></title>
+    <title><?php echo $system[0]['title'] ?></title>
 </head>
 <body>
 
