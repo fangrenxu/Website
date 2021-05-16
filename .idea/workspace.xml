@@ -47,7 +47,10 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.index.php">
+  <component name="RunManager" selected="JavaScript 调试.cookie.php">
+    <configuration name="cookie.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/cookie.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="header.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/inc/header.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -60,16 +63,13 @@
     <configuration name="delete.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/delete.php">
       <method v="2" />
     </configuration>
-    <configuration name="insert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/insert.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.cookie.php" />
         <item itemvalue="JavaScript 调试.index.php" />
         <item itemvalue="JavaScript 调试.header.php" />
         <item itemvalue="JavaScript 调试.list.php" />
         <item itemvalue="PHP 脚本.delete.php" />
-        <item itemvalue="PHP 脚本.insert.php" />
       </list>
     </recent_temporary>
   </component>

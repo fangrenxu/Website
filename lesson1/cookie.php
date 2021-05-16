@@ -22,4 +22,4 @@
 //一定要注意，超全局不是跨页面
 
 //设置
-setcookie(name:'username',value:'admin');
+setcookie('username','admin');
