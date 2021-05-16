@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="优化头部信息的页面，首页显示私人影院的字段">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="优化头部信息的代码，当所有数据都拿到之后，关闭数据库连接">
+      <change afterPath="$PROJECT_DIR$/lesson1/cookie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coures2/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/coures2/inc/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,10 @@
       <workItem from="1621060379970" duration="2701000" />
       <workItem from="1621066226867" duration="833000" />
       <workItem from="1621068747252" duration="946000" />
-      <workItem from="1621069700035" duration="437000" />
+      <workItem from="1621069700035" duration="1734000" />
+      <workItem from="1621072392284" duration="1226000" />
+      <workItem from="1621079868008" duration="599000" />
+      <workItem from="1621152393759" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -308,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621069994755</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="优化头部信息的代码，当所有数据都拿到之后，关闭数据库连接">
+      <created>1621070187165</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1621070187165</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +358,8 @@
     <MESSAGE value="优化详情页的页面，去掉intval，改为直接从数据库读取数值" />
     <MESSAGE value="优化底部信息的页面，增加php中文网的字段" />
     <MESSAGE value="优化头部信息的页面，首页显示私人影院的字段" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化头部信息的页面，首页显示私人影院的字段" />
+    <MESSAGE value="优化头部信息的代码，当所有数据都拿到之后，关闭数据库连接" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化头部信息的代码，当所有数据都拿到之后，关闭数据库连接" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
