@@ -21,5 +21,11 @@
 // 超全局是指：在任何一个php脚本中，不需要事先定义就可以使用，因为它们已经随着页面自动 加载了
 //一定要注意，超全局不是跨页面
 
-//设置
-setcookie('username','admin');
+// 设置
+setcookie('username','admin',time()-1);
+//setcookie('user_id','',time()-3600);
+// 查询读取
+//print_r($_COOKIE);
+
+//$_COOKIE['user_id'] = '888';
+print_r($_COOKIE);
