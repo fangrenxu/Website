@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新代码" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新代码">
+      <change beforePath="$PROJECT_DIR$/lesson1/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/session.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +123,7 @@
       <workItem from="1621152393759" duration="6272000" />
       <workItem from="1621230309655" duration="2101000" />
       <workItem from="1621255975865" duration="55000" />
-      <workItem from="1621256037056" duration="84000" />
+      <workItem from="1621256037056" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -354,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621256089573</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="更新代码">
+      <created>1621256148046</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1621256148046</updated>
+    </task>
+    <task id="LOCAL-00035" summary="更新代码">
+      <created>1621256177276</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1621256177276</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
