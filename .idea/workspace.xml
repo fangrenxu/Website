@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新代码">
-      <change beforePath="$PROJECT_DIR$/lesson1/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/session.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="session配置文件">
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson1.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <workItem from="1621152393759" duration="6272000" />
       <workItem from="1621230309655" duration="2101000" />
       <workItem from="1621255975865" duration="55000" />
-      <workItem from="1621256037056" duration="165000" />
+      <workItem from="1621256037056" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -370,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621256177276</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="session配置文件">
+      <created>1621256215073</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1621256215073</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +396,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新数据库基本常识.md" />
     <MESSAGE value="更新PDO操作数据库" />
     <MESSAGE value="数据库配置文件" />
     <MESSAGE value="優化代碼" />
@@ -414,7 +420,8 @@
     <MESSAGE value="cookie与session（会话）" />
     <MESSAGE value="cookie与sessin（会话）" />
     <MESSAGE value="更新代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新代码" />
+    <MESSAGE value="session配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="session配置文件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
