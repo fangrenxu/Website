@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="Cookie和Session文档">
+      <change afterPath="$PROJECT_DIR$/lesson1/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/lesson.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.cookie.php">
+  <component name="RunManager" selected="JavaScript 调试.login.php">
     <configuration name="cookie.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/cookie.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -69,16 +72,16 @@
     <configuration name="list.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/list.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="delete.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/coures2/delete.php">
+    <configuration name="login.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 调试.cookie.php" />
+        <item itemvalue="JavaScript 调试.login.php" />
         <item itemvalue="JavaScript 调试.index.php" />
+        <item itemvalue="JavaScript 调试.cookie.php" />
         <item itemvalue="JavaScript 调试.header.php" />
         <item itemvalue="JavaScript 调试.list.php" />
-        <item itemvalue="PHP 脚本.delete.php" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +130,8 @@
       <workItem from="1621255975865" duration="55000" />
       <workItem from="1621256037056" duration="2974000" />
       <workItem from="1621308533723" duration="842000" />
+      <workItem from="1621310258204" duration="146000" />
+      <workItem from="1621310409540" duration="2509000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
