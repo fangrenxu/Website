@@ -16,3 +16,11 @@ login.php ----> check.php ----> admin.php ----> logout.php ----> login.php
 > 
 > 1. 头部开启会话： `session_start()`;
 > 2. `$_COOKIE`, 替换成 `$_SESSION
+
+login.php
+
+check.php
+
+admin.php
+
+logout.php
