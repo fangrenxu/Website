@@ -1,10 +1,11 @@
 <?php
+
 //  开启会话
 session_start(); // 向cokkie中写入session_id：PHPSESSID
 
 if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin') :
 ?>
-
+<?php endif; ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,8 +23,3 @@ if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin') :
 </p>
 </body>
 </html>
-
-<?php
-else :
-endif;
-?>
