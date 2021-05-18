@@ -3,7 +3,7 @@
 //  开启会话
 session_start(); // 向cokkie中写入session_id：PHPSESSID
 
-if (isset($_COOKIE['username']) && $_COOKIE['username'] === 'admin') :
+if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin') :
 ?>
 <script>alert('您已经登录了，请不要重复登录'); location.assign("admin.php");</script>
 <?php endif; ?>
