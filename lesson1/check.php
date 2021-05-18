@@ -2,16 +2,10 @@
 //  开启会话
 session_start(); // 向cokkie中写入session_id：PHPSESSID
 
-
 if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin') {
     echo '<script>alert(\'您已经登陆了，请不要重复登陆\'); location.assign("admin.php);</script>';
 
 }
-
-
-
-
-
 
 //  连接数据库
 require __DIR__. '/inc/connect.php';

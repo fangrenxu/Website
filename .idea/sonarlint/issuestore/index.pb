@@ -13,5 +13,13 @@ G
 lesson1/inc/connect.php,5\8\58c69eff61afba5f66cf552b3307d17d0bb69c91
 H
 lesson1/inc/database.php,d\9\d9c153dd3bc601e30a948c71e3a51cdaa517d570
-A
-lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
+C
+lesson1/session.php,8\2\82bc61532304b1998bd18b7e433ce66f5b30f7e7
+B
+coures2/update.php,a\d\ad6017fb5dfa0b65e34b98f1a9ad18ca40a338cf
+C
+coures2/select3.php,d\1\d15d8bd3d843e4e39845a76ee9582762c78101cc
+C
+coures2/select2.php,6\6\663608e2be3f329da6c81dcad0c8111008eba4e6
+C
+coures2/select1.php,0\9\096ee062bd141ab565323afea2f9747b0bf76393

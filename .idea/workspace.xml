@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="已经登录的验证">
-      <change afterPath="$PROJECT_DIR$/lesson1/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/logout.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用户登录与验证的代码">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +59,11 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.logout.php">
+  <component name="RunManager" selected="JavaScript 调试.admin.php">
     <configuration name="admin.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="check.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/check.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login.php" useBuiltInWebServerPort="true">
@@ -74,13 +72,16 @@
     <configuration name="logout.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/logout.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="logout.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lesson1/logout.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 调试.logout.php" />
         <item itemvalue="JavaScript 调试.admin.php" />
-        <item itemvalue="JavaScript 调试.check.php" />
+        <item itemvalue="JavaScript 调试.logout.php" />
+        <item itemvalue="PHP 脚本.logout.php" />
         <item itemvalue="JavaScript 调试.login.php" />
-        <item itemvalue="JavaScript 调试.index.php" />
+        <item itemvalue="JavaScript 调试.check.php" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +132,8 @@
       <workItem from="1621308533723" duration="842000" />
       <workItem from="1621310258204" duration="146000" />
       <workItem from="1621310409540" duration="9611000" />
-      <workItem from="1621325072856" duration="1882000" />
+      <workItem from="1621325072856" duration="4542000" />
+      <workItem from="1621338966888" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库基本常识.md">
       <created>1620053295066</created>
@@ -434,7 +436,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621322328144</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="未登录的验证">
+      <created>1621330939634</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1621330939634</updated>
+    </task>
+    <task id="LOCAL-00045" summary="重复登陆的验证">
+      <created>1621330965323</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1621330965323</updated>
+    </task>
+    <task id="LOCAL-00046" summary="用户登录与验证的代码">
+      <created>1621339677832</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1621339677832</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,9 +476,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PDO操作数据库连接" />
-    <MESSAGE value="PDO操作数据库&#10;1. 连接数据库&#10;2. 创建SQL语句模板&#10;3. 创建SQL语句对象：预处理对象 PDOStatment&#10;4. 将变量绑定到SQL语句的模板上&#10;5. 执行SQL语句&#10;6. 关闭连接" />
-    <MESSAGE value="PDO操作数据库——更新" />
     <MESSAGE value="PDO操作数据库——一次读取一条记录" />
     <MESSAGE value="PDO操作数据库——一次读取一个结果集（多条数据）" />
     <MESSAGE value="PDO操作数据库——将结果集中的字段绑定到指定变量上" />
@@ -478,7 +498,17 @@
     <MESSAGE value="用户登录页面" />
     <MESSAGE value="数据库连接配置信息" />
     <MESSAGE value="已经登录的验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="已经登录的验证" />
+    <MESSAGE value="未登录的验证" />
+    <MESSAGE value="重复登陆的验证" />
+    <MESSAGE value="用户登录与验证的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户登录与验证的代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
