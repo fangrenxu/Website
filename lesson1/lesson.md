@@ -17,10 +17,10 @@ login.php ----> check.php ----> admin.php ----> logout.php ----> login.php
 > 1. 头部开启会话： `session_start()`;
 > 2. `$_COOKIE`, 替换成 `$_SESSION
 
-login.php
+login.php   用户登录与验证
 
-check.php
+check.php   已经登录的验证
 
-admin.php
+admin.php   未登录的验证
 
-logout.php
+logout.php  重复登陆的验证
