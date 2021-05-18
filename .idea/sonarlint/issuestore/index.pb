@@ -23,3 +23,25 @@ C
 coures2/select2.php,6\6\663608e2be3f329da6c81dcad0c8111008eba4e6
 C
 coures2/select1.php,0\9\096ee062bd141ab565323afea2f9747b0bf76393
+A
+lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
+A
+lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
+A
+lesson1/admin.php,7\5\754907818f82a24c62cad2d3e51729d02deb0a3d
+B
+lesson1/logout.php,3\0\309845946b5da1c8a6af6b34cee743a1b5ef8cb8
+P
+ lesson1/数据库基本常识.md,5\c\5c24c5ba46853847f0a6a4a37099b71fdf2ba3c2
+K
+php数据库教学大纲.md,b\0\b07760cc8819e9bbc263873940230d57a6273207
+N
+php项目常规开发流程.md,2\e\2ee8027d43921c385df9db5a5559ef7912087dad
+B
+coures2/inc/pdo.md,d\f\dfbe1b8bcea40f43c24174fa31348b5f03ac4e8f
+B
+coures2/course2.md,e\a\eae46ef7ad18b63a740c4526e1b24df6b35d96b0
+B
+coures2/lesson1.md,5\5\5533b60809babeeee1565397701e74bb098d3793
+C
+course1/couerse1.md,c\c\cc3d64af0acb57def35cf44004e54cf9aeaecd35
