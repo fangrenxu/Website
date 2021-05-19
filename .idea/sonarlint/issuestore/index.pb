@@ -24,8 +24,6 @@ C
 C
 coures2/select1.php,0\9\096ee062bd141ab565323afea2f9747b0bf76393
 A
-lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
-A
 lesson1/admin.php,7\5\754907818f82a24c62cad2d3e51729d02deb0a3d
 B
 lesson1/logout.php,3\0\309845946b5da1c8a6af6b34cee743a1b5ef8cb8

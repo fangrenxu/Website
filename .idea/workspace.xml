@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做用户登陆与验证">
+      <change afterPath="$PROJECT_DIR$/lesson1/check2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/login2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/login2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +137,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="5118000" />
-    </task>
-    <task id="LOCAL-00004" summary="更新数据库基本常识.md">
-      <created>1620118265499</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1620118265499</updated>
+      <workItem from="1621393686945" duration="5617000" />
     </task>
     <task id="LOCAL-00005" summary="PDO操作数据库">
       <created>1620635012815</created>
@@ -482,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621397049650</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="用cookie的方法做用户登陆与验证">
+      <created>1621405047641</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1621405047641</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
