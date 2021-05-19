@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做用户登陆与验证">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做重复登陆的验证">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson1/admin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/admin2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/logout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/logout2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/login2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/login2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.logout2.php">
+  <component name="RunManager" selected="JavaScript 调试.admin2.php">
     <configuration name="admin2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -80,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 调试.logout2.php" />
         <item itemvalue="JavaScript 调试.admin2.php" />
+        <item itemvalue="JavaScript 调试.logout2.php" />
         <item itemvalue="JavaScript 调试.login2.php" />
         <item itemvalue="PHP 脚本.check2.php" />
         <item itemvalue="JavaScript 调试.admin.php" />
@@ -138,14 +138,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="16521000" />
-    </task>
-    <task id="LOCAL-00016" summary="PDO操作数据库&#10;1. 连接数据库&#10;2. 创建SQL语句模板&#10;3. 创建SQL语句对象：预处理对象 PDOStatment&#10;4. 将变量绑定到SQL语句的模板上&#10;5. 执行SQL语句&#10;6. 关闭连接">
-      <created>1620896769773</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1620896769773</updated>
+      <workItem from="1621393686945" duration="18857000" />
     </task>
     <task id="LOCAL-00017" summary="PDO操作数据库——更新">
       <created>1620905019429</created>
@@ -483,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621416446537</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="用cookie的方法做重复登陆的验证">
+      <created>1621424495807</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1621424495807</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,10 +524,10 @@
     <MESSAGE value="登陆与验证的文档" />
     <MESSAGE value="会话控制的文档" />
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
-    <MESSAGE value="用cookie的方法做重复登陆的验证" />
     <MESSAGE value="用cookie的方法做未登录的验证" />
     <MESSAGE value="用cookie的方法做用户登陆与验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做用户登陆与验证" />
+    <MESSAGE value="用cookie的方法做重复登陆的验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做重复登陆的验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
