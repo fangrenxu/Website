@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="会话控制的文档">
-      <change afterPath="$PROJECT_DIR$/lesson1/login2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做用户登陆与验证">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/login2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/login2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +61,11 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.admin.php">
+  <component name="RunManager" selected="JavaScript 调试.login2.php">
     <configuration name="admin.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="check.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/check.php" useBuiltInWebServerPort="true">
+    <configuration name="login2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login.php" useBuiltInWebServerPort="true">
@@ -80,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.login2.php" />
         <item itemvalue="JavaScript 调试.admin.php" />
         <item itemvalue="JavaScript 调试.logout.php" />
         <item itemvalue="PHP 脚本.logout.php" />
         <item itemvalue="JavaScript 调试.login.php" />
-        <item itemvalue="JavaScript 调试.check.php" />
       </list>
     </recent_temporary>
   </component>
@@ -138,14 +137,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="2680000" />
-    </task>
-    <task id="LOCAL-00003" summary="更新数据库基本常识.md">
-      <created>1620112069624</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1620112069624</updated>
+      <workItem from="1621393686945" duration="5118000" />
     </task>
     <task id="LOCAL-00004" summary="更新数据库基本常识.md">
       <created>1620118265499</created>
@@ -483,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621344699145</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="用cookie的方法做用户登陆与验证">
+      <created>1621397049650</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1621397049650</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +501,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将原先代码改为从数据库读取数据" />
     <MESSAGE value="优化栏目页面，改为从数据库读取数值" />
     <MESSAGE value="优化详情页的页面，去掉intval，改为直接从数据库读取数值" />
     <MESSAGE value="优化底部信息的页面，增加php中文网的字段" />
@@ -527,7 +525,8 @@
     <MESSAGE value="重复登陆的验证的代码" />
     <MESSAGE value="登陆与验证的文档" />
     <MESSAGE value="会话控制的文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="会话控制的文档" />
+    <MESSAGE value="用cookie的方法做用户登陆与验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做用户登陆与验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
