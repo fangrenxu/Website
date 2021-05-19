@@ -1,3 +1,9 @@
+<?php
+//用cookie的方法做用户登陆与验证
+if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin') :
+?>
+<script>alert("你已经登陆，请不要重复登陆"); location.assign("admin2.php");</script>;
+
 <!doctype html>
 <html lang="`">
 <head>
