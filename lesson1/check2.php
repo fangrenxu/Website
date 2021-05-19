@@ -18,10 +18,10 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
 print_r($user);
 if (false === $user){
     // 登录失败
-    echo '<script>alert("登录失败，请检查"); location.href="login.php";</script>';
+    echo '<script>alert("登录失败，请检查"); location.href="login2.php";</script>';
     die();  //exit; exit();
 }
 
 //  登陆成功，将用户登陆信息写到COOKIE中
 setcookie('username',$user['username']);
-echo '<script>alert("登陆成功");location.assign="admin2.php";</script>';
+echo '<script>alert("登陆成功");location.assign("admin2.php");</script>';

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做未登录的验证">
-      <change afterPath="$PROJECT_DIR$/lesson1/logout2.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做重复登陆的验证">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/check2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/check2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/logout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/logout2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.admin2.php">
+  <component name="RunManager" selected="PHP 脚本.check2.php">
     <configuration name="admin2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -71,7 +73,7 @@
     <configuration name="login2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="logout.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/logout.php" useBuiltInWebServerPort="true">
+    <configuration name="logout2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/logout2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="check2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lesson1/check2.php">
@@ -79,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.check2.php" />
+        <item itemvalue="JavaScript 调试.logout2.php" />
         <item itemvalue="JavaScript 调试.admin2.php" />
         <item itemvalue="JavaScript 调试.login2.php" />
-        <item itemvalue="PHP 脚本.check2.php" />
         <item itemvalue="JavaScript 调试.admin.php" />
-        <item itemvalue="JavaScript 调试.logout.php" />
       </list>
     </recent_temporary>
   </component>
@@ -137,14 +139,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="9279000" />
-    </task>
-    <task id="LOCAL-00009" summary="移动文件位置">
-      <created>1620650255538</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1620650255538</updated>
+      <workItem from="1621393686945" duration="9870000" />
     </task>
     <task id="LOCAL-00010" summary="更新数据库配置文件">
       <created>1620650305673</created>
@@ -482,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621408789768</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="用cookie的方法做重复登陆的验证">
+      <created>1621409217431</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1621409217431</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +503,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化底部信息的页面，增加php中文网的字段" />
     <MESSAGE value="优化头部信息的页面，首页显示私人影院的字段" />
     <MESSAGE value="优化头部信息的代码，当所有数据都拿到之后，关闭数据库连接" />
     <MESSAGE value="cookie 与 sessin（会话）" />
@@ -526,7 +527,8 @@
     <MESSAGE value="用cookie的方法做用户登陆与验证" />
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
     <MESSAGE value="用cookie的方法做未登录的验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做未登录的验证" />
+    <MESSAGE value="用cookie的方法做重复登陆的验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做重复登陆的验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
