@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="登陆与验证的文档">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="会话控制的文档">
+      <change afterPath="$PROJECT_DIR$/lesson1/login2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/lesson.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/会话控制文档.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,10 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1s1slxR63SGHtFAQbvTjBLQvkR8" />
   <component name="ProjectLevelVcsManager">
@@ -36,12 +40,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson1" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="PsalmProjectConfiguration">
@@ -132,14 +137,8 @@
       <workItem from="1621310409540" duration="9611000" />
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
-      <workItem from="1621342232795" duration="1572000" />
-    </task>
-    <task id="LOCAL-00002" summary="更新数据库基本常识.md">
-      <created>1620112026119</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1620112026119</updated>
+      <workItem from="1621342232795" duration="3042000" />
+      <workItem from="1621393686945" duration="2680000" />
     </task>
     <task id="LOCAL-00003" summary="更新数据库基本常识.md">
       <created>1620112069624</created>
@@ -477,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621339801628</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="会话控制的文档">
+      <created>1621344699145</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1621344699145</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +502,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据库管理网站动态数据文档" />
     <MESSAGE value="将原先代码改为从数据库读取数据" />
     <MESSAGE value="优化栏目页面，改为从数据库读取数值" />
     <MESSAGE value="优化详情页的页面，去掉intval，改为直接从数据库读取数值" />
@@ -521,7 +526,8 @@
     <MESSAGE value="未登录的验证的代码" />
     <MESSAGE value="重复登陆的验证的代码" />
     <MESSAGE value="登陆与验证的文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="登陆与验证的文档" />
+    <MESSAGE value="会话控制的文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="会话控制的文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
