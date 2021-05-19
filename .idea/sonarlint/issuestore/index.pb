@@ -1,6 +1,4 @@
 
-O
-数据库的结构和数据.sql,6\5\651fa22cf8d31850af5af392c70b70f9346572a6
 B
 lesson1/cookie.php,e\1\e185be9e19fd76175324072285b47592708f5847
 A
@@ -13,8 +11,6 @@ G
 lesson1/inc/connect.php,5\8\58c69eff61afba5f66cf552b3307d17d0bb69c91
 H
 lesson1/inc/database.php,d\9\d9c153dd3bc601e30a948c71e3a51cdaa517d570
-C
-lesson1/session.php,8\2\82bc61532304b1998bd18b7e433ce66f5b30f7e7
 B
 coures2/update.php,a\d\ad6017fb5dfa0b65e34b98f1a9ad18ca40a338cf
 C

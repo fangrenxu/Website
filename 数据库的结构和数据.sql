@@ -11,7 +11,7 @@
  Target Server Version : 80024
  File Encoding         : 65001
 
- Date: 15/05/2021 17:01:23
+ Date: 19/05/2021 22:29:29
 */
 
 SET NAMES utf8mb4;
@@ -26,7 +26,7 @@ CREATE TABLE `category`  (
   `name` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '栏目名称',
   `alias` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '栏目别名',
   PRIMARY KEY (`cate_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of category
@@ -47,7 +47,7 @@ CREATE TABLE `movies`  (
   `cate_id` int UNSIGNED NOT NULL COMMENT '所属栏目',
   PRIMARY KEY (`mov_id`) USING BTREE,
   INDEX `INDEX`(`cate_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of movies
@@ -73,11 +73,29 @@ CREATE TABLE `system`  (
   `key` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '关键字',
   `copy` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '版权',
   PRIMARY KEY (`sys_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of system
 -- ----------------------------
 INSERT INTO `system` VALUES (1, '私人影院', '收集全网最新最全的影视资源', '国产,欧美,日韩', 'php中文网');
+
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user`  (
+  `user_id` int UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '用户ID',
+  `username` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '用户名',
+  `email` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '邮箱账号',
+  `password` char(40) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '密码',
+  PRIMARY KEY (`user_id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------
+INSERT INTO `user` VALUES (1, 'admin', 'admin@php.cn', '7c4a8d09ca3762af61e59520943dc26494f8941b');
+INSERT INTO `user` VALUES (2, 'peter', 'peter@php.cn', '7c4a8d09ca3762af61e59520943dc26494f8941b');
 
 SET FOREIGN_KEY_CHECKS = 1;
