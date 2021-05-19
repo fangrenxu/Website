@@ -1,5 +1,10 @@
 <?php
 //用cookie的方法做重复登陆的验证
-//  退出
-setcookie('username',null,time()-36000);
-echo '<script>alert("退出成功"); location.assign("login2.php");</script>';
+//  必须在已经登陆的情况，才允许退出操作
+if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin'){
+    //  退出
+    setcookie('username',null,time()-36000);
+    echo '<script>alert("退出成功"); location.assign("login2.php");</script>';
+} else {
+    echo '<script>alert("请先登陆"); location.assign("login2.php");</script>';
+}

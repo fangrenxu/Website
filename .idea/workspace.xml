@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做重复登陆的验证">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/check2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/check2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson1/logout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/logout2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,21 +137,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="9870000" />
-    </task>
-    <task id="LOCAL-00010" summary="更新数据库配置文件">
-      <created>1620650305673</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1620650305673</updated>
-    </task>
-    <task id="LOCAL-00011" summary="更新数据库配置文件">
-      <created>1620721063258</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1620721063258</updated>
+      <workItem from="1621393686945" duration="10572000" />
     </task>
     <task id="LOCAL-00012" summary="PDO操作数据库">
       <created>1620732454572</created>
@@ -484,7 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621409217431</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="用cookie的方法做已经登陆的验证">
+      <created>1621409826662</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1621409826662</updated>
+    </task>
+    <task id="LOCAL-00060" summary="用cookie的方法做重复登陆的验证">
+      <created>1621409841987</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1621409841988</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,8 +523,8 @@
     <MESSAGE value="登陆与验证的文档" />
     <MESSAGE value="会话控制的文档" />
     <MESSAGE value="用cookie的方法做用户登陆与验证" />
-    <MESSAGE value="用cookie的方法做已经登陆的验证" />
     <MESSAGE value="用cookie的方法做未登录的验证" />
+    <MESSAGE value="用cookie的方法做已经登陆的验证" />
     <MESSAGE value="用cookie的方法做重复登陆的验证" />
     <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做重复登陆的验证" />
   </component>
