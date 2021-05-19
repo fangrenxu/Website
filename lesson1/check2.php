@@ -1,5 +1,10 @@
 <?php
 //用cookie的方法做已经登陆的验证
+if (isset($_COOKIE['username']) && $_COOKIE['username'] === 'admin') {
+    echo '<script>alert("你已经登陆，请不要重复登陆"); location.assign("admin2.php");</script>;'
+}
+
+
 //  连接数据库
 require __DIR__ . '/inc/connect.php';
 

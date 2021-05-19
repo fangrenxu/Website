@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做用户登陆与验证">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做未登录的验证">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/admin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/admin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/check2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/check2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +137,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="18950000" />
-    </task>
-    <task id="LOCAL-00018" summary="PDO操作数据库——一次读取一条记录">
-      <created>1620909060328</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1620909060328</updated>
+      <workItem from="1621393686945" duration="20526000" />
     </task>
     <task id="LOCAL-00019" summary="PDO操作数据库——一次读取一个结果集（多条数据）">
       <created>1620909769076</created>
@@ -482,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621428711525</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="用cookie的方法做未登录的验证">
+      <created>1621428830113</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1621428830113</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,10 +523,10 @@
     <MESSAGE value="登陆与验证的文档" />
     <MESSAGE value="会话控制的文档" />
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
-    <MESSAGE value="用cookie的方法做未登录的验证" />
     <MESSAGE value="用cookie的方法做重复登陆的验证" />
     <MESSAGE value="用cookie的方法做用户登陆与验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做用户登陆与验证" />
+    <MESSAGE value="用cookie的方法做未登录的验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="用cookie的方法做未登录的验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
