@@ -1,6 +1,6 @@
 <?php
 //用cookie的方法做未登录的验证
-if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin') :
+if (isset($_COOKIE['username']) && $_COOKIE['username'] === 'admin') :
 ?>
 
 <!doctype html>
@@ -20,6 +20,9 @@ if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin') :
 </p>
 </body>
 </html>
-<?php else: ?>
-<script>alert("请先登陆"); location.assign("login2.php");</script>;
+
+<?php else : ?>
+
+<script>alert('请先登陆'); location.assign("login2.php");</script>
+
 <?php endif; ?>
