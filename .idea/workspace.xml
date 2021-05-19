@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做未登录的验证">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/logout2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/admin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/admin2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,10 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.login2.php">
+  <component name="RunManager" selected="JavaScript 调试.admin2.php">
+    <configuration name="admin2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin2.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="admin.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -75,16 +77,13 @@
     <configuration name="check2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lesson1/check2.php">
       <method v="2" />
     </configuration>
-    <configuration name="logout.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lesson1/logout.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.admin2.php" />
         <item itemvalue="JavaScript 调试.login2.php" />
         <item itemvalue="PHP 脚本.check2.php" />
         <item itemvalue="JavaScript 调试.admin.php" />
         <item itemvalue="JavaScript 调试.logout.php" />
-        <item itemvalue="PHP 脚本.logout.php" />
       </list>
     </recent_temporary>
   </component>
@@ -138,14 +137,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="8851000" />
-    </task>
-    <task id="LOCAL-00008" summary="優化代碼">
-      <created>1620637739167</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1620637739167</updated>
+      <workItem from="1621393686945" duration="9279000" />
     </task>
     <task id="LOCAL-00009" summary="移动文件位置">
       <created>1620650255538</created>
@@ -483,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621408522877</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="用cookie的方法做未登录的验证">
+      <created>1621408789768</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1621408789768</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
