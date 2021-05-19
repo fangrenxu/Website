@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="用cookie的方法做重复登陆的验证">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/logout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/logout2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/admin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/admin2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +137,7 @@
       <workItem from="1621325072856" duration="4542000" />
       <workItem from="1621338966888" duration="2152000" />
       <workItem from="1621342232795" duration="3042000" />
-      <workItem from="1621393686945" duration="10572000" />
-    </task>
-    <task id="LOCAL-00012" summary="PDO操作数据库">
-      <created>1620732454572</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1620732454572</updated>
+      <workItem from="1621393686945" duration="11164000" />
     </task>
     <task id="LOCAL-00013" summary="PDO操作数据库连接">
       <created>1620819208792</created>
@@ -482,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621409841988</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="用cookie的方法做重复登陆的验证">
+      <created>1621410509623</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1621410509623</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
