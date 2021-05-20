@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="ajax显示电影分类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/Ajax.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/分页的基本原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/分页的基本原理.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +150,7 @@
       <workItem from="1621436369473" duration="2000" />
       <workItem from="1621491879612" duration="2000" />
       <workItem from="1621492412928" duration="637000" />
-      <workItem from="1621494172559" duration="9488000" />
-    </task>
-    <task id="LOCAL-00029" summary="优化头部信息的代码，当所有数据都拿到之后，关闭数据库连接">
-      <created>1621070187165</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1621070187165</updated>
+      <workItem from="1621494172559" duration="11021000" />
     </task>
     <task id="LOCAL-00030" summary="cookie 与 sessin（会话）">
       <created>1621154743556</created>
@@ -494,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621505172883</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="ajax显示电影分类">
+      <created>1621516689476</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1621516689476</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
