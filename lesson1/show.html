@@ -7,6 +7,8 @@
 <body>
 <button>电影分类</button>
 <ul></ul>
+
+
 <script>
     var btn = document.getElementsByTagName('button').item(0);
 
@@ -23,6 +25,9 @@
         request.open('GET','get_cate.php');
         //发送请求
         request.send(null);
+
+        //取消btn的click事件
+        ev.currentTarget.removeEventListener('click',getCate,false);
     }
 
     //ajax的请求成功回调方法
