@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax显示电影分类</title>
+</head>
+<body>
+<button>电影分类</button>
+<ul></ul>
+<script>
+    var btn = document.getElementsByTagName('button').item(0);
+
+    //创建ajax对象
+    var request = new XMLHttpRequest();
+
+    btn.addEventListener('click',getCate,false);
+
+    //btn 点击 事件回调方法
+    function getCate(ev){
+        //监听请求
+        request.addEventListener('readystatechange',callback,false);
+        //配置请求
+        request.open('GET','get_cate.php');
+        //发送请求
+        request.send(null);
+    }
+
+    //ajax的请求成功回调方法
+    function callback(){
+        if(request.readyState === 4 && request.status === 200){
+            console.log(request.responseText);
+        }
+    }
+</script>
+</body>
+</html>

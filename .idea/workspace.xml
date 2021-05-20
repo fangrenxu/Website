@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="分页的基本原理文档">
-      <change afterPath="$PROJECT_DIR$/lesson1/Ajax.md" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="Ajax异步更新文档">
+      <change afterPath="$PROJECT_DIR$/lesson1/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +12,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -61,11 +69,8 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.admin2.php">
+  <component name="RunManager" selected="JavaScript 调试.show.html">
     <configuration name="admin2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin2.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="admin.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login2.php" useBuiltInWebServerPort="true">
@@ -74,16 +79,19 @@
     <configuration name="logout2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/logout2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="show.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="check2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lesson1/check2.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.show.html" />
         <item itemvalue="JavaScript 调试.admin2.php" />
         <item itemvalue="JavaScript 调试.login2.php" />
         <item itemvalue="JavaScript 调试.logout2.php" />
         <item itemvalue="PHP 脚本.check2.php" />
-        <item itemvalue="JavaScript 调试.admin.php" />
       </list>
     </recent_temporary>
   </component>
@@ -141,14 +149,7 @@
       <workItem from="1621436369473" duration="2000" />
       <workItem from="1621491879612" duration="2000" />
       <workItem from="1621492412928" duration="637000" />
-      <workItem from="1621494172559" duration="4116000" />
-    </task>
-    <task id="LOCAL-00024" summary="将原先代码改为从数据库读取数据">
-      <created>1620991781164</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1620991781164</updated>
+      <workItem from="1621494172559" duration="5571000" />
     </task>
     <task id="LOCAL-00025" summary="优化栏目页面，改为从数据库读取数值">
       <created>1620992058237</created>
@@ -486,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621501574874</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Ajax异步更新文档">
+      <created>1621502422897</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1621502422898</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +513,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cookie 与 sessin（会话）" />
     <MESSAGE value="cookie与session（会话）" />
     <MESSAGE value="cookie与sessin（会话）" />
     <MESSAGE value="更新代码" />
@@ -530,7 +537,8 @@
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
     <MESSAGE value="数据库的结构和数据" />
     <MESSAGE value="分页的基本原理文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="分页的基本原理文档" />
+    <MESSAGE value="Ajax异步更新文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajax异步更新文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
