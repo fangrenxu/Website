@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="Ajax异步更新文档">
-      <change afterPath="$PROJECT_DIR$/lesson1/show.html" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="ajax显示电影分类">
+      <change afterPath="$PROJECT_DIR$/lesson1/get_cate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +69,11 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.show.html">
+  <component name="RunManager" selected="JavaScript 调试.get_cate.php">
     <configuration name="admin2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin2.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="get_cate.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/get_cate.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login2.php" useBuiltInWebServerPort="true">
@@ -82,16 +85,13 @@
     <configuration name="show.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="check2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lesson1/check2.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.get_cate.php" />
         <item itemvalue="JavaScript 调试.show.html" />
         <item itemvalue="JavaScript 调试.admin2.php" />
         <item itemvalue="JavaScript 调试.login2.php" />
         <item itemvalue="JavaScript 调试.logout2.php" />
-        <item itemvalue="PHP 脚本.check2.php" />
       </list>
     </recent_temporary>
   </component>
@@ -149,14 +149,7 @@
       <workItem from="1621436369473" duration="2000" />
       <workItem from="1621491879612" duration="2000" />
       <workItem from="1621492412928" duration="637000" />
-      <workItem from="1621494172559" duration="5571000" />
-    </task>
-    <task id="LOCAL-00025" summary="优化栏目页面，改为从数据库读取数值">
-      <created>1620992058237</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1620992058238</updated>
+      <workItem from="1621494172559" duration="6268000" />
     </task>
     <task id="LOCAL-00026" summary="优化详情页的页面，去掉intval，改为直接从数据库读取数值">
       <created>1620992627739</created>
@@ -494,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621502422898</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="ajax显示电影分类">
+      <created>1621503953034</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1621503953034</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +513,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cookie与session（会话）" />
     <MESSAGE value="cookie与sessin（会话）" />
     <MESSAGE value="更新代码" />
     <MESSAGE value="session配置文件" />
@@ -538,7 +537,8 @@
     <MESSAGE value="数据库的结构和数据" />
     <MESSAGE value="分页的基本原理文档" />
     <MESSAGE value="Ajax异步更新文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajax异步更新文档" />
+    <MESSAGE value="ajax显示电影分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax显示电影分类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
