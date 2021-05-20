@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="数据库的结构和数据">
-      <change afterPath="$PROJECT_DIR$/lesson1/分页的基本原理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="分页的基本原理文档">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/分页的基本原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/分页的基本原理.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,14 +141,7 @@
       <workItem from="1621436369473" duration="2000" />
       <workItem from="1621491879612" duration="2000" />
       <workItem from="1621492412928" duration="637000" />
-      <workItem from="1621494172559" duration="939000" />
-    </task>
-    <task id="LOCAL-00022" summary="PDO操作数据库——删除数据">
-      <created>1620975141846</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1620975141846</updated>
+      <workItem from="1621494172559" duration="3004000" />
     </task>
     <task id="LOCAL-00023" summary="数据库管理网站动态数据文档">
       <created>1620980459186</created>
@@ -487,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621434608961</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="分页的基本原理文档">
+      <created>1621495309653</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1621495309653</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +505,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化头部信息的代码，当所有数据都拿到之后，关闭数据库连接" />
     <MESSAGE value="cookie 与 sessin（会话）" />
     <MESSAGE value="cookie与session（会话）" />
     <MESSAGE value="cookie与sessin（会话）" />
@@ -531,7 +529,8 @@
     <MESSAGE value="用cookie的方法做未登录的验证" />
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
     <MESSAGE value="数据库的结构和数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库的结构和数据" />
+    <MESSAGE value="分页的基本原理文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="分页的基本原理文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
