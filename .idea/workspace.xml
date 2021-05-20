@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="ajax显示电影分类">
-      <change afterPath="$PROJECT_DIR$/lesson1/get_cate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="连接数据库，请求返回的值">
+      <change beforePath="$PROJECT_DIR$/lesson1/get_cate.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/get_cate.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +148,7 @@
       <workItem from="1621436369473" duration="2000" />
       <workItem from="1621491879612" duration="2000" />
       <workItem from="1621492412928" duration="637000" />
-      <workItem from="1621494172559" duration="6268000" />
-    </task>
-    <task id="LOCAL-00026" summary="优化详情页的页面，去掉intval，改为直接从数据库读取数值">
-      <created>1620992627739</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1620992627739</updated>
+      <workItem from="1621494172559" duration="6364000" />
     </task>
     <task id="LOCAL-00027" summary="优化底部信息的页面，增加php中文网的字段">
       <created>1621069132000</created>
@@ -494,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621503953034</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="连接数据库，请求返回的值">
+      <created>1621504713177</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1621504713177</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +512,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cookie与sessin（会话）" />
     <MESSAGE value="更新代码" />
     <MESSAGE value="session配置文件" />
     <MESSAGE value="用户登录与验证之SESSION版的文档" />
@@ -538,7 +536,8 @@
     <MESSAGE value="分页的基本原理文档" />
     <MESSAGE value="Ajax异步更新文档" />
     <MESSAGE value="ajax显示电影分类" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax显示电影分类" />
+    <MESSAGE value="连接数据库，请求返回的值" />
+    <option name="LAST_COMMIT_MESSAGE" value="连接数据库，请求返回的值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
