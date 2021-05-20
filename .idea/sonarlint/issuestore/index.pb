@@ -33,3 +33,25 @@ B
 coures2/lesson1.md,5\5\5533b60809babeeee1565397701e74bb098d3793
 C
 course1/couerse1.md,c\c\cc3d64af0acb57def35cf44004e54cf9aeaecd35
+A
+lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
+A
+lesson1/admin.php,7\5\754907818f82a24c62cad2d3e51729d02deb0a3d
+A
+lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
+B
+lesson1/logout.php,3\0\309845946b5da1c8a6af6b34cee743a1b5ef8cb8
+B
+lesson1/login2.php,8\3\83a131bb3d633919a1845a7293dc2b0ab763efa7
+B
+lesson1/check2.php,0\9\09a09bfa77fd0d440dc802dccc3c77cd2595136b
+B
+lesson1/admin2.php,4\4\4494dd4585063a6a71a089b6fb2d8a84d2ff0fe3
+C
+lesson1/logout2.php,4\8\489255e894de30c63cdaf9afa68ad2bfd35e6055
+C
+lesson1/session.php,8\2\82bc61532304b1998bd18b7e433ce66f5b30f7e7
+O
+数据库的结构和数据.sql,6\5\651fa22cf8d31850af5af392c70b70f9346572a6
+M
+lesson1/会话控制文档.md,2\e\2ec8b9d36d87ca64e6bb815f18c917efb43acc62
