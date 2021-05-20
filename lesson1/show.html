@@ -28,7 +28,15 @@
     //ajax的请求成功回调方法
     function callback(){
         if(request.readyState === 4 && request.status === 200){
-            console.log(request.responseText);
+            var data = JSON.parse(request.responseText); //json--> js对象
+
+            var ul = document.getElementsByTagName('ul').item(0);
+
+            data.forEach(function (index){
+                var li = document.createElement('li');
+                li.innerHTML = index['alias'];
+                ul.appendChild(li);
+            })
         }
     }
 </script>
