@@ -54,7 +54,7 @@
         // 监听请求
         request.onreadystatechange = function (ev){
             //请求成功
-            if (request.readyState === 4 && request.status === 200){
+            if (request.readyState === 4){
                 console(request.responseText);
             }
         }

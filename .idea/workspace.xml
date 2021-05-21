@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="Ajax实现表格数据分页显示">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson1/get_movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/get_movies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/show.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +70,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.show.php">
-    <configuration name="admin2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin2.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript 调试.show.html">
     <configuration name="get_cate.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/get_cate.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -83,16 +80,19 @@
     <configuration name="show2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="show.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="show.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.show.html" />
         <item itemvalue="JavaScript 调试.show.php" />
         <item itemvalue="JavaScript 调试.show2.html" />
         <item itemvalue="JavaScript 调试.login2.php" />
         <item itemvalue="JavaScript 调试.get_cate.php" />
-        <item itemvalue="JavaScript 调试.admin2.php" />
       </list>
     </recent_temporary>
   </component>
@@ -156,14 +156,7 @@
       <workItem from="1621570433624" duration="2059000" />
       <workItem from="1621575038777" duration="569000" />
       <workItem from="1621575616851" duration="73000" />
-      <workItem from="1621575695534" duration="4897000" />
-    </task>
-    <task id="LOCAL-00033" summary="更新代码">
-      <created>1621256089573</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1621256089573</updated>
+      <workItem from="1621575695534" duration="6225000" />
     </task>
     <task id="LOCAL-00034" summary="更新代码">
       <created>1621256148046</created>
@@ -501,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621578829106</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Ajax实现表格数据分页显示">
+      <created>1621580863940</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1621580863940</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
