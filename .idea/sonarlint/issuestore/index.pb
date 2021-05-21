@@ -53,3 +53,11 @@ O
 数据库的结构和数据.sql,6\5\651fa22cf8d31850af5af392c70b70f9346572a6
 M
 lesson1/会话控制文档.md,2\e\2ec8b9d36d87ca64e6bb815f18c917efb43acc62
+A
+lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
+P
+ lesson1/分页的基本原理.md,3\4\34b35a37b95480a6076d5b443cde83e6a487ec98
+A
+lesson1/show.html,b\d\bd2de3d2f63cfa8683954681559f412c7a41ed41
+D
+lesson1/get_cate.php,1\7\17b442b94410cf68d0b5cabd45ff18ccf0a077a1

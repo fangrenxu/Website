@@ -55,7 +55,9 @@
         request.onreadystatechange = function (ev){
             //请求成功
             if (request.readyState === 4){
-                console(request.responseText);
+                //将服务器返回的JSON字符串转为JS对象
+                var data = JSON.parse(request.responseText);
+                console.log(data);
             }
         }
 

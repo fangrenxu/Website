@@ -17,7 +17,7 @@ $pages = $stmt->fetchColumn(0);
 //偏移量 = 当前显示数量 * （当前页码 - 1）
 $offset = $num * ($page - 1);
 
-$sql = "SELECT `mov_id`,`name`,LEFT(`detail`,20) FROM `movies` LIMIT {$num} OFFSET {$offset}";
+$sql = "SELECT `mov_id`,`name`,CONCAT(LEFT(`detail`,20),'...') FROM `movies` LIMIT {$num} OFFSET {$offset}";
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);//二维数组
