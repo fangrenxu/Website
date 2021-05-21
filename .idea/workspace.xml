@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="细说函数">
-      <change afterPath="$PROJECT_DIR$/function/demo1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的声明">
+      <change afterPath="$PROJECT_DIR$/function/demo2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +73,11 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo1.php">
+  <component name="RunManager" selected="PHP 脚本.demo2.php">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="show2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="show.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="show.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.php" useBuiltInWebServerPort="true">
@@ -90,8 +86,12 @@
     <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo1.php">
       <method v="2" />
     </configuration>
+    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo2.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo2.php" />
         <item itemvalue="PHP 脚本.demo1.php" />
         <item itemvalue="JavaScript 调试.index.php" />
       </list>
@@ -162,14 +162,7 @@
       <workItem from="1621597453675" duration="156000" />
       <workItem from="1621597615021" duration="1861000" />
       <workItem from="1621604243493" duration="1154000" />
-      <workItem from="1621605510134" duration="1480000" />
-    </task>
-    <task id="LOCAL-00042" summary="数据库连接配置信息">
-      <created>1621322276013</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1621322276013</updated>
+      <workItem from="1621605510134" duration="1749000" />
     </task>
     <task id="LOCAL-00043" summary="已经登录的验证">
       <created>1621322328144</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621598103891</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="函数的声明">
+      <created>1621607021143</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1621607021144</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用户登录页面" />
     <MESSAGE value="数据库连接配置信息" />
     <MESSAGE value="已经登录的验证" />
     <MESSAGE value="未登录的验证" />
@@ -551,7 +550,8 @@
     <MESSAGE value="学习文档" />
     <MESSAGE value="最新影视剧介绍" />
     <MESSAGE value="细说函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="细说函数" />
+    <MESSAGE value="函数的声明" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数的声明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -67,5 +67,3 @@ V
 lesson1/show.php,a\9\a9da444aeb65f7c623af844f9639ca619547efb6
 A
 coures2/index.php,f\0\f0effd5601fb815759bd3d9309cde3376e482a1d
-M
-Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
