@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>最新影视剧介绍</title>
     <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, td, th {
+            border: 1px solid black;
+        }
+        th
+        {
+            background-color:lightblue;
+            color:black;
+        }
         ul{
             text-align:center;
         }
@@ -26,6 +37,11 @@
             border: 1px solid red;
         }
 
+        .active {
+            background-color:lightblue;
+            border: 1px solid red;
+        }
+
     </style>
 </head>
 
@@ -44,9 +60,7 @@
 </table>
 <!--分页条-->
 <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
+
 </ul>
 <script>
     function getData(p){
@@ -57,9 +71,38 @@
             if (request.readyState === 4){
                 //将服务器返回的JSON字符串转为JS对象
                 var data = JSON.parse(request.responseText);
-                console.log(data);
+
+                //动态显示分页条
+                var ul = document.getElementsByTagName('ul').item(0);
+                for(var i = 0, n = data[0]; i< n; i += 1){
+                    var li =document.createElement('li');
+                    li.innerText = (i+1);
+
+                    //设置当前页码的高亮显示
+                    li.className = (li.innerText === p.toString() ? 'active' : null);
+
+                    //li 就是当前的页码
+                    li.onclick = function (){
+                        var search = location.search.slice(0,3) + this.innerText;
+                        location.replace(search);
+                    };
+
+                    ul.appendChild(li);
+                }
+
+                //将数据表中的内容，渲染到当前的表格中
+                var tbody = document.getElementsByTagName('tbody').item(0);
+                data[1].forEach(function (value) {
+                    var tr = document.createElement('tr');
+                    for (var key in value){
+                        var td = document.createElement('td');
+                        td.innerText = value[key];
+                        tr.appendChild(td);
+                    }
+                    tbody.appendChild(tr);
+                })
             }
-        }
+        };
 
         //配置请求
         request.open('GET','get_movies.php?p='+p.toString(),true);
