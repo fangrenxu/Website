@@ -34,8 +34,6 @@ B
 C
 course1/couerse1.md,c\c\cc3d64af0acb57def35cf44004e54cf9aeaecd35
 A
-lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
-A
 lesson1/admin.php,7\5\754907818f82a24c62cad2d3e51729d02deb0a3d
 A
 lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
@@ -55,3 +53,5 @@ O
 数据库的结构和数据.sql,6\5\651fa22cf8d31850af5af392c70b70f9346572a6
 M
 lesson1/会话控制文档.md,2\e\2ec8b9d36d87ca64e6bb815f18c917efb43acc62
+P
+ lesson1/分页的基本原理.md,3\4\34b35a37b95480a6076d5b443cde83e6a487ec98

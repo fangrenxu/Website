@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="ajax显示电影分类">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="分页的基本原理文档">
+      <change afterPath="$PROJECT_DIR$/lesson1/get_movies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/Ajax.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/分页的基本原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/分页的基本原理.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson1" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="PsalmProjectConfiguration">
@@ -70,7 +71,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.get_cate.php">
+  <component name="RunManager" selected="JavaScript 调试.show.php">
     <configuration name="admin2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/admin2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -80,19 +81,19 @@
     <configuration name="login2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login2.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="logout2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/logout2.php" useBuiltInWebServerPort="true">
+    <configuration name="show2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="show.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.html" useBuiltInWebServerPort="true">
+    <configuration name="show.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 调试.get_cate.php" />
-        <item itemvalue="JavaScript 调试.show.html" />
-        <item itemvalue="JavaScript 调试.admin2.php" />
+        <item itemvalue="JavaScript 调试.show.php" />
+        <item itemvalue="JavaScript 调试.show2.html" />
         <item itemvalue="JavaScript 调试.login2.php" />
-        <item itemvalue="JavaScript 调试.logout2.php" />
+        <item itemvalue="JavaScript 调试.get_cate.php" />
+        <item itemvalue="JavaScript 调试.admin2.php" />
       </list>
     </recent_temporary>
   </component>
@@ -150,14 +151,13 @@
       <workItem from="1621436369473" duration="2000" />
       <workItem from="1621491879612" duration="2000" />
       <workItem from="1621492412928" duration="637000" />
-      <workItem from="1621494172559" duration="11021000" />
-    </task>
-    <task id="LOCAL-00030" summary="cookie 与 sessin（会话）">
-      <created>1621154743556</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1621154743556</updated>
+      <workItem from="1621494172559" duration="12714000" />
+      <workItem from="1621566873851" duration="2863000" />
+      <workItem from="1621570356962" duration="69000" />
+      <workItem from="1621570433624" duration="2059000" />
+      <workItem from="1621575038777" duration="569000" />
+      <workItem from="1621575616851" duration="73000" />
+      <workItem from="1621575695534" duration="2952000" />
     </task>
     <task id="LOCAL-00031" summary="cookie与sessin（会话）">
       <created>1621154850272</created>
@@ -495,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621516689476</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="分页的基本原理文档">
+      <created>1621520377730</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1621520377730</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,12 +541,12 @@
     <MESSAGE value="用cookie的方法做未登录的验证" />
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
     <MESSAGE value="数据库的结构和数据" />
-    <MESSAGE value="分页的基本原理文档" />
     <MESSAGE value="Ajax异步更新文档" />
     <MESSAGE value="连接数据库，请求返回的值" />
     <MESSAGE value="连接数据库，请求返回" />
     <MESSAGE value="ajax显示电影分类" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax显示电影分类" />
+    <MESSAGE value="分页的基本原理文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="分页的基本原理文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
