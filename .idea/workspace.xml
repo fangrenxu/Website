@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="分页的基本原理文档">
-      <change afterPath="$PROJECT_DIR$/lesson1/get_movies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/show.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="Ajax实现表格数据分页显示">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/get_movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/get_movies.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,21 +156,7 @@
       <workItem from="1621570433624" duration="2059000" />
       <workItem from="1621575038777" duration="569000" />
       <workItem from="1621575616851" duration="73000" />
-      <workItem from="1621575695534" duration="2952000" />
-    </task>
-    <task id="LOCAL-00031" summary="cookie与sessin（会话）">
-      <created>1621154850272</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1621154850272</updated>
-    </task>
-    <task id="LOCAL-00032" summary="cookie与sessin（会话）">
-      <created>1621154867555</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1621154867555</updated>
+      <workItem from="1621575695534" duration="4897000" />
     </task>
     <task id="LOCAL-00033" summary="更新代码">
       <created>1621256089573</created>
@@ -502,7 +487,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621520377730</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Ajax实现表格数据分页显示">
+      <created>1621578809733</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1621578809734</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Ajax实现表格数据分页显示">
+      <created>1621578829106</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1621578829106</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +520,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="session配置文件" />
     <MESSAGE value="用户登录与验证之SESSION版的文档" />
     <MESSAGE value="Cookie登陆验证的文档" />
     <MESSAGE value="Cookie和Session文档" />
@@ -546,7 +544,8 @@
     <MESSAGE value="连接数据库，请求返回" />
     <MESSAGE value="ajax显示电影分类" />
     <MESSAGE value="分页的基本原理文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="分页的基本原理文档" />
+    <MESSAGE value="Ajax实现表格数据分页显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajax实现表格数据分页显示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
