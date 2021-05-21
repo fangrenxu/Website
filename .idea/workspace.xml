@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的声明">
-      <change afterPath="$PROJECT_DIR$/function/demo2.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的参数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/demo2.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,14 +162,7 @@
       <workItem from="1621597453675" duration="156000" />
       <workItem from="1621597615021" duration="1861000" />
       <workItem from="1621604243493" duration="1154000" />
-      <workItem from="1621605510134" duration="1749000" />
-    </task>
-    <task id="LOCAL-00043" summary="已经登录的验证">
-      <created>1621322328144</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1621322328144</updated>
+      <workItem from="1621605510134" duration="3027000" />
     </task>
     <task id="LOCAL-00044" summary="未登录的验证">
       <created>1621330939634</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621607021144</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="函数的参数">
+      <created>1621607306287</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1621607306287</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据库连接配置信息" />
     <MESSAGE value="已经登录的验证" />
     <MESSAGE value="未登录的验证" />
     <MESSAGE value="重复登陆的验证" />
@@ -551,7 +550,8 @@
     <MESSAGE value="最新影视剧介绍" />
     <MESSAGE value="细说函数" />
     <MESSAGE value="函数的声明" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数的声明" />
+    <MESSAGE value="函数的参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数的参数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -17,3 +17,10 @@ echo sum();
 echo '<hr>';
 
 // 形参就是一个占位符
+function sum1()
+{
+    //func_num_args(): 返回实参的数量
+    return func_num_args();
+}
+
+echo sum1(10,20);
