@@ -1,8 +1,6 @@
 
 B
 lesson1/cookie.php,e\1\e185be9e19fd76175324072285b47592708f5847
-A
-coures2/index.php,f\0\f0effd5601fb815759bd3d9309cde3376e482a1d
 G
 coures2/inc/connect.php,1\2\12a3f29fbb309a72fade4d7ad7cbb702a30e1573
 H
@@ -67,3 +65,7 @@ V
 &Documentation/数据库基本常识.md,e\8\e872285417f42042e2716d544b02d147f99874a7
 @
 lesson1/show.php,a\9\a9da444aeb65f7c623af844f9639ca619547efb6
+A
+coures2/index.php,f\0\f0effd5601fb815759bd3d9309cde3376e482a1d
+M
+Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02

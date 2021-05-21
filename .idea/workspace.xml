@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="最新影视剧介绍">
-      <change beforePath="$PROJECT_DIR$/Documentation/细说函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/细说函数.md" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="细说函数">
+      <change afterPath="$PROJECT_DIR$/function/demo1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +74,8 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.get_cate.php">
-    <configuration name="get_cate.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/get_cate.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="login2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login2.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="PHP 脚本.demo1.php">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="show2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show2.html" useBuiltInWebServerPort="true">
@@ -88,6 +87,15 @@
     <configuration name="show.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo1.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP 脚本.demo1.php" />
+        <item itemvalue="JavaScript 调试.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,14 +160,9 @@
       <workItem from="1621575695534" duration="6980000" />
       <workItem from="1621583957620" duration="8112000" />
       <workItem from="1621597453675" duration="156000" />
-      <workItem from="1621597615021" duration="486000" />
-    </task>
-    <task id="LOCAL-00041" summary="用户登录页面">
-      <created>1621317655393</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1621317655393</updated>
+      <workItem from="1621597615021" duration="1861000" />
+      <workItem from="1621604243493" duration="1154000" />
+      <workItem from="1621605510134" duration="1480000" />
     </task>
     <task id="LOCAL-00042" summary="数据库连接配置信息">
       <created>1621322276013</created>
@@ -497,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621598087359</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="细说函数">
+      <created>1621598103891</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1621598103891</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cookie和Session文档" />
     <MESSAGE value="用户登录页面" />
     <MESSAGE value="数据库连接配置信息" />
     <MESSAGE value="已经登录的验证" />
@@ -541,7 +550,8 @@
     <MESSAGE value="Ajax实现表格数据分页显示" />
     <MESSAGE value="学习文档" />
     <MESSAGE value="最新影视剧介绍" />
-    <option name="LAST_COMMIT_MESSAGE" value="最新影视剧介绍" />
+    <MESSAGE value="细说函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="细说函数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
