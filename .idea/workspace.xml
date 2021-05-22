@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的参数">
-      <change afterPath="$PROJECT_DIR$/function/demo3.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的返回值">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/demo3.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo3.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +73,11 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo2.php">
+  <component name="RunManager" selected="PHP 脚本.demo3.php">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="show2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="show.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/show.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo1.php">
@@ -88,8 +86,12 @@
     <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo2.php">
       <method v="2" />
     </configuration>
+    <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo3.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo3.php" />
         <item itemvalue="PHP 脚本.demo2.php" />
         <item itemvalue="PHP 脚本.demo1.php" />
         <item itemvalue="JavaScript 调试.index.php" />
@@ -163,14 +165,7 @@
       <workItem from="1621604243493" duration="1154000" />
       <workItem from="1621605510134" duration="3042000" />
       <workItem from="1621667806562" duration="1936000" />
-      <workItem from="1621676099567" duration="5688000" />
-    </task>
-    <task id="LOCAL-00049" summary="重复登陆的验证的代码">
-      <created>1621339777355</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1621339777355</updated>
+      <workItem from="1621676099567" duration="7728000" />
     </task>
     <task id="LOCAL-00050" summary="登陆与验证的文档">
       <created>1621339801627</created>
@@ -508,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621686220772</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="函数的返回值">
+      <created>1621686251567</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1621686251567</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +529,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="未登录的验证" />
     <MESSAGE value="重复登陆的验证" />
     <MESSAGE value="用户登录与验证的代码" />
     <MESSAGE value="已经登录的验证的代码" />
@@ -552,7 +553,8 @@
     <MESSAGE value="函数的声明" />
     <MESSAGE value="函数的参数与返回类型" />
     <MESSAGE value="函数的参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数的参数" />
+    <MESSAGE value="函数的返回值" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数的返回值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
