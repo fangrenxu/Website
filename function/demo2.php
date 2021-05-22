@@ -32,14 +32,28 @@ function sum1()
 
 //    print_r(func_get_args());
 
-    $total = 0;
+//    $total = 0;
+//
+//    foreach (func_get_args() as $value)
+//    {
+//        //$total = $total + $value;
+//        $total += $value;
+//    }
+//        return $total;
 
-    foreach (func_get_args() as $value)
-    {
-        //$total = $total + $value;
-        $total += $value;
-    }
-        return $total;
+
+    return array_sum(func_get_args());
+
 }
 
 echo sum1(10,20,30,40,50);
+echo '<hr>';
+
+// PHP 7，提供了一个变长参数,代替了：func_get_args（）
+function sum2(...$params)
+{
+    //print_r($params);//输出数组
+    return array_sum($params);//输出数组内所有值的和
+}
+
+echo sum2(1,2,3,4,5,6);
