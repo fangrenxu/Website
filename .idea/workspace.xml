@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的返回值">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentation/细说函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/细说函数.md" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新细说函数的文档">
+      <change beforePath="$PROJECT_DIR$/function/demo1.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +164,7 @@
       <workItem from="1621604243493" duration="1154000" />
       <workItem from="1621605510134" duration="3042000" />
       <workItem from="1621667806562" duration="1936000" />
-      <workItem from="1621676099567" duration="10087000" />
-    </task>
-    <task id="LOCAL-00052" summary="用cookie的方法做用户登陆与验证">
-      <created>1621397049650</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1621397049650</updated>
+      <workItem from="1621676099567" duration="10127000" />
     </task>
     <task id="LOCAL-00053" summary="用cookie的方法做用户登陆与验证">
       <created>1621405047641</created>
@@ -510,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621693401570</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="更新细说函数的文档">
+      <created>1621693540513</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1621693540513</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重复登陆的验证" />
     <MESSAGE value="用户登录与验证的代码" />
     <MESSAGE value="已经登录的验证的代码" />
     <MESSAGE value="未登录的验证的代码" />
@@ -554,7 +552,8 @@
     <MESSAGE value="函数的参数与返回类型" />
     <MESSAGE value="函数的参数" />
     <MESSAGE value="函数的返回值" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数的返回值" />
+    <MESSAGE value="更新细说函数的文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新细说函数的文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
