@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的返回值">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/demo3.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/细说函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/细说函数.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +165,7 @@
       <workItem from="1621604243493" duration="1154000" />
       <workItem from="1621605510134" duration="3042000" />
       <workItem from="1621667806562" duration="1936000" />
-      <workItem from="1621676099567" duration="9967000" />
-    </task>
-    <task id="LOCAL-00051" summary="会话控制的文档">
-      <created>1621344699145</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1621344699145</updated>
+      <workItem from="1621676099567" duration="10087000" />
     </task>
     <task id="LOCAL-00052" summary="用cookie的方法做用户登陆与验证">
       <created>1621397049650</created>
@@ -510,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621688312163</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="函数的返回值">
+      <created>1621693401569</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1621693401570</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
