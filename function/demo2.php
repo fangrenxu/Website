@@ -57,3 +57,24 @@ function sum2(...$params)
 }
 
 echo sum2(1,2,3,4,5,6);
+echo '<hr>';
+
+function sum3($a,$b,$c,$d)
+{
+    return ($a + $b + $c + $d);
+}
+
+// 调用者，叫客户端
+$arr = [3,5,7];
+echo sum3(1,...$arr);
+//echo sum3(1,3,5,7)
+
+echo '<hr>';
+
+//  对参数的类型进行限制
+function sum4( $a,...$arr)
+{
+    return $a + array_sum($arr);
+}
+
+echo sum4(2.5,3,4,'5');
