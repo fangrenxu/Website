@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的参数">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function/demo2.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo2.php" afterDir="false" />
     </list>
@@ -162,14 +163,9 @@
       <workItem from="1621597453675" duration="156000" />
       <workItem from="1621597615021" duration="1861000" />
       <workItem from="1621604243493" duration="1154000" />
-      <workItem from="1621605510134" duration="3027000" />
-    </task>
-    <task id="LOCAL-00044" summary="未登录的验证">
-      <created>1621330939634</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1621330939634</updated>
+      <workItem from="1621605510134" duration="3042000" />
+      <workItem from="1621667806562" duration="1936000" />
+      <workItem from="1621676099567" duration="607000" />
     </task>
     <task id="LOCAL-00045" summary="重复登陆的验证">
       <created>1621330965323</created>
@@ -507,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621607306287</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="函数的参数">
+      <created>1621609081879</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1621609081880</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
