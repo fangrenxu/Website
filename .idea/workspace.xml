@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的参数">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function/demo2.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo2.php" afterDir="false" />
     </list>
@@ -165,14 +164,7 @@
       <workItem from="1621604243493" duration="1154000" />
       <workItem from="1621605510134" duration="3042000" />
       <workItem from="1621667806562" duration="1936000" />
-      <workItem from="1621676099567" duration="607000" />
-    </task>
-    <task id="LOCAL-00045" summary="重复登陆的验证">
-      <created>1621330965323</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1621330965323</updated>
+      <workItem from="1621676099567" duration="2104000" />
     </task>
     <task id="LOCAL-00046" summary="用户登录与验证的代码">
       <created>1621339677832</created>
@@ -510,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621609081880</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="函数的参数">
+      <created>1621677055144</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1621677055145</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

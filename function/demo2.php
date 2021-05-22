@@ -25,10 +25,21 @@ function sum1()
     //return func_get_arg(0);//第一个实参
     //return func_get_arg(1);//第二个实参
 
-    $a = func_get_arg(0);
-    $b = func_get_arg(1);
+//    $a = func_get_arg(0);
+//    $b = func_get_arg(1);
+//
+//    return $a + $b;
 
-    return $a + $b;
+//    print_r(func_get_args());
+
+    $total = 0;
+
+    foreach (func_get_args() as $value)
+    {
+        //$total = $total + $value;
+        $total += $value;
+    }
+        return $total;
 }
 
 echo sum1(10,20,30,40,50);
