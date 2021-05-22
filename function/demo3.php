@@ -41,4 +41,11 @@ function demon4()
 echo '<pre>'. print_r(demon4(),true);
 
 echo '<hr>';
+//  PHP变量名，常量名区分大小写，函数名、方法名、类名不区分大小写
+//  php7，可以限定函数的返回类型
+function demon5($a,$b) :int //限定函数类型为整型
+{
+    return $a+$b;
+}
 
+echo demon5(1.4,3.3);
