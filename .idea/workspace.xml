@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数的返回值">
-      <change afterPath="$PROJECT_DIR$/function/demo4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数中的变量访问">
+      <change afterPath="$PROJECT_DIR$/function/demo5.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +73,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo4.php">
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/coures2/index.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP 脚本.demo5.php">
     <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo1.php">
       <method v="2" />
     </configuration>
@@ -90,13 +86,16 @@
     <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo4.php">
       <method v="2" />
     </configuration>
+    <configuration name="demo5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo5.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo5.php" />
         <item itemvalue="PHP 脚本.demo4.php" />
         <item itemvalue="PHP 脚本.demo3.php" />
         <item itemvalue="PHP 脚本.demo2.php" />
         <item itemvalue="PHP 脚本.demo1.php" />
-        <item itemvalue="JavaScript 调试.index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -168,14 +167,7 @@
       <workItem from="1621605510134" duration="3042000" />
       <workItem from="1621667806562" duration="1936000" />
       <workItem from="1621676099567" duration="10990000" />
-      <workItem from="1621738944464" duration="6058000" />
-    </task>
-    <task id="LOCAL-00056" summary="用cookie的方法做未登录的验证">
-      <created>1621408522877</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1621408522877</updated>
+      <workItem from="1621738944464" duration="10477000" />
     </task>
     <task id="LOCAL-00057" summary="用cookie的方法做未登录的验证">
       <created>1621408789768</created>
@@ -513,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621693610644</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="函数中的变量访问">
+      <created>1621755755728</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1621755755728</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="未登录的验证的代码" />
     <MESSAGE value="重复登陆的验证的代码" />
     <MESSAGE value="登陆与验证的文档" />
     <MESSAGE value="会话控制的文档" />
@@ -557,7 +555,8 @@
     <MESSAGE value="函数的常规声明与调用" />
     <MESSAGE value="函数的参数类型" />
     <MESSAGE value="函数的返回值" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数的返回值" />
+    <MESSAGE value="函数中的变量访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数中的变量访问" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
