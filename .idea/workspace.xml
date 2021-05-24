@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="函数中的变量访问">
-      <change afterPath="$PROJECT_DIR$/function/demo5.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="匿名函数与闭包的知识">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/demo5.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo5.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,14 +168,8 @@
       <workItem from="1621605510134" duration="3042000" />
       <workItem from="1621667806562" duration="1936000" />
       <workItem from="1621676099567" duration="10990000" />
-      <workItem from="1621738944464" duration="10477000" />
-    </task>
-    <task id="LOCAL-00057" summary="用cookie的方法做未登录的验证">
-      <created>1621408789768</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1621408789768</updated>
+      <workItem from="1621738944464" duration="11818000" />
+      <workItem from="1621827359996" duration="673000" />
     </task>
     <task id="LOCAL-00058" summary="用cookie的方法做重复登陆的验证">
       <created>1621409217431</created>
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621755755728</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="匿名函数与闭包的知识">
+      <created>1621780025970</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1621780025970</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重复登陆的验证的代码" />
     <MESSAGE value="登陆与验证的文档" />
     <MESSAGE value="会话控制的文档" />
     <MESSAGE value="用cookie的方法做重复登陆的验证" />
@@ -556,7 +557,8 @@
     <MESSAGE value="函数的参数类型" />
     <MESSAGE value="函数的返回值" />
     <MESSAGE value="函数中的变量访问" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数中的变量访问" />
+    <MESSAGE value="匿名函数与闭包的知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="匿名函数与闭包的知识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -69,3 +69,11 @@ A
 coures2/index.php,f\0\f0effd5601fb815759bd3d9309cde3376e482a1d
 B
 function/demo2.php,5\3\53d8b7e2546197f2a9e0205c683ad52de0116fa1
+M
+Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
+B
+function/demo1.php,5\b\5b74d782c9498feb7cf0bd4d4c29ab10ba064a72
+B
+function/demo3.php,d\9\d989fa518418b4d7250f71bf42c6486a34b904a2
+B
+function/demo4.php,7\4\74ab53e441fee9cb43d9ef8ef8c9954be8e13692
