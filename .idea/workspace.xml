@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="匿名函数与闭包的知识">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function/demo5.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/demo5.php" afterDir="false" />
     </list>
@@ -171,14 +170,7 @@
       <workItem from="1621738944464" duration="11818000" />
       <workItem from="1621827359996" duration="673000" />
       <workItem from="1621839764994" duration="1456000" />
-      <workItem from="1621844607580" duration="4082000" />
-    </task>
-    <task id="LOCAL-00059" summary="用cookie的方法做已经登陆的验证">
-      <created>1621409826662</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1621409826662</updated>
+      <workItem from="1621844607580" duration="4147000" />
     </task>
     <task id="LOCAL-00060" summary="用cookie的方法做重复登陆的验证">
       <created>1621409841987</created>
@@ -516,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621839775833</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="匿名函数与闭包的知识">
+      <created>1621849945555</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1621849945555</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

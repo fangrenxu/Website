@@ -59,6 +59,7 @@ echo '<hr>';
 function demo()
 {
     $name = 'Luke Wong';
+
     return function() use ($name){
         return $name;
     };
@@ -69,4 +70,3 @@ $func = demo();
 echo $func();
 echo '<hr>';
 echo demo()();
-echo '<hr>';
