@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="创建一个类的例子">
-      <change afterPath="$PROJECT_DIR$/Class and Object/demo2.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类的构造方法">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class and Object/demo2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +74,14 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo0.php">
+  <component name="RunManager" selected="PHP 脚本.demo2.php">
     <configuration name="demo0.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo0.php">
       <method v="2" />
     </configuration>
     <configuration name="demo1.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo1.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo3.php">
+    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo2.php">
       <method v="2" />
     </configuration>
     <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo4.php">
@@ -91,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo2.php" />
         <item itemvalue="PHP 脚本.demo0.php" />
         <item itemvalue="PHP 脚本.demo1.php (1)" />
         <item itemvalue="PHP 脚本.demo5.php" />
         <item itemvalue="PHP 脚本.demo4.php" />
-        <item itemvalue="PHP 脚本.demo3.php" />
       </list>
     </recent_temporary>
   </component>
@@ -171,14 +172,7 @@
       <workItem from="1621827359996" duration="673000" />
       <workItem from="1621839764994" duration="1456000" />
       <workItem from="1621844607580" duration="7249000" />
-      <workItem from="1621913088863" duration="10537000" />
-    </task>
-    <task id="LOCAL-00068" summary="用cookie的方法做已经登陆的验证">
-      <created>1621431557376</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1621431557376</updated>
+      <workItem from="1621913088863" duration="12791000" />
     </task>
     <task id="LOCAL-00069" summary="用cookie的方法做已经登陆的验证">
       <created>1621431707243</created>
@@ -516,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621945934143</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="类的构造方法">
+      <created>1621946791111</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1621946791111</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用cookie的方法做用户登陆与验证" />
     <MESSAGE value="用cookie的方法做未登录的验证" />
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
     <MESSAGE value="数据库的结构和数据" />
@@ -560,7 +560,8 @@
     <MESSAGE value="类与对象的基本知识的文档" />
     <MESSAGE value="类与对象的关系" />
     <MESSAGE value="创建一个类的例子" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建一个类的例子" />
+    <MESSAGE value="类的构造方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="类的构造方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
