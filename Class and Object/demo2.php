@@ -19,7 +19,7 @@ class GrilFriend1
         $this->name = $name;
         $this->age = $age;
         $this->bhw = $bhw;
-        $this->hobby($hobby);
+        $this->getInfo();
     }
 
     //方法
@@ -27,17 +27,23 @@ class GrilFriend1
     {
         return $hobby;
     }
+    //输出女朋友的基本信息
+    public function getInfo()
+    {
+        //访问
+        $res = '女朋友的';
+        $res .='<br>姓名：'.$this->name;
+        $res .='<br>年龄：'.$this->age;
+        $res .='<br>三围：'.var_export($this->bhw,true);
+        $res .='<br>爱好：'.$this->hobby('逛街花钱');
+
+        echo $res;
+    }
 }
 
 
 $girl1 = new GrilFriend1('牡丹',24,[83,60,84]);
+//$girl1->getInfo();
 
-//访问
-$res = '女朋友的';
-$res .='<br>姓名：'.$girl1->name;
-$res .='<br>年龄：'.$girl1->age;
-$res .='<br>三围：'.var_export($girl1->bhw,true);
-$res .='<br>爱好：'.$girl1->hobby('逛街花钱');
 
-echo $res;
 echo '<hr>';
