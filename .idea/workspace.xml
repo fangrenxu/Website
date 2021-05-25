@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类与对象的关系">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class and Object/demo0.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class and Object/demo1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +73,11 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo1.php (1)">
-    <configuration name="demo1.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo1.php">
+  <component name="RunManager" selected="PHP 脚本.demo0.php">
+    <configuration name="demo0.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo0.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo2.php">
+    <configuration name="demo1.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo1.php">
       <method v="2" />
     </configuration>
     <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/function/demo3.php">
@@ -92,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo0.php" />
         <item itemvalue="PHP 脚本.demo1.php (1)" />
         <item itemvalue="PHP 脚本.demo5.php" />
         <item itemvalue="PHP 脚本.demo4.php" />
         <item itemvalue="PHP 脚本.demo3.php" />
-        <item itemvalue="PHP 脚本.demo2.php" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +171,7 @@
       <workItem from="1621827359996" duration="673000" />
       <workItem from="1621839764994" duration="1456000" />
       <workItem from="1621844607580" duration="7249000" />
-      <workItem from="1621913088863" duration="8999000" />
-    </task>
-    <task id="LOCAL-00065" summary="用cookie的方法做重复登陆的验证">
-      <created>1621424495807</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1621424495807</updated>
+      <workItem from="1621913088863" duration="9838000" />
     </task>
     <task id="LOCAL-00066" summary="用cookie的方法做用户登陆与验证">
       <created>1621428711525</created>
@@ -517,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621921439247</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="类与对象的关系">
+      <created>1621945000135</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1621945000135</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
