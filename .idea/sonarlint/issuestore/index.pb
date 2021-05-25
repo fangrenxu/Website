@@ -77,3 +77,7 @@ B
 function/demo3.php,d\9\d989fa518418b4d7250f71bf42c6486a34b904a2
 B
 function/demo4.php,7\4\74ab53e441fee9cb43d9ef8ef8c9954be8e13692
+B
+function/demo5.php,9\2\9267d2ae975aaa7db5c2af7ec31463533a58c78a
+\
+,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
