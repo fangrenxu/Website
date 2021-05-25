@@ -172,14 +172,7 @@
       <workItem from="1621827359996" duration="673000" />
       <workItem from="1621839764994" duration="1456000" />
       <workItem from="1621844607580" duration="7249000" />
-      <workItem from="1621913088863" duration="2572000" />
-    </task>
-    <task id="LOCAL-00064" summary="用cookie的方法做用户登陆与验证">
-      <created>1621416446537</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1621416446537</updated>
+      <workItem from="1621913088863" duration="8999000" />
     </task>
     <task id="LOCAL-00065" summary="用cookie的方法做重复登陆的验证">
       <created>1621424495807</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621865423782</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="类与对象的关系">
+      <created>1621921439247</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1621921439247</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
