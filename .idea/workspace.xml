@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类与对象的关系">
-      <change afterPath="$PROJECT_DIR$/Class and Object/demo0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="创建一个类的例子">
+      <change beforePath="$PROJECT_DIR$/Class and Object/demo0.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo0.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +170,7 @@
       <workItem from="1621827359996" duration="673000" />
       <workItem from="1621839764994" duration="1456000" />
       <workItem from="1621844607580" duration="7249000" />
-      <workItem from="1621913088863" duration="9838000" />
-    </task>
-    <task id="LOCAL-00066" summary="用cookie的方法做用户登陆与验证">
-      <created>1621428711525</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1621428711525</updated>
+      <workItem from="1621913088863" duration="9861000" />
     </task>
     <task id="LOCAL-00067" summary="用cookie的方法做未登录的验证">
       <created>1621428830113</created>
@@ -516,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621945000135</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="创建一个类的例子">
+      <created>1621945910312</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1621945910312</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用cookie的方法做重复登陆的验证" />
     <MESSAGE value="用cookie的方法做用户登陆与验证" />
     <MESSAGE value="用cookie的方法做未登录的验证" />
     <MESSAGE value="用cookie的方法做已经登陆的验证" />
@@ -560,7 +558,8 @@
     <MESSAGE value="匿名函数与闭包的知识" />
     <MESSAGE value="类与对象的基本知识的文档" />
     <MESSAGE value="类与对象的关系" />
-    <option name="LAST_COMMIT_MESSAGE" value="类与对象的关系" />
+    <MESSAGE value="创建一个类的例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建一个类的例子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

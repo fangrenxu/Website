@@ -12,4 +12,5 @@ $demo = new Demo();
 //实例属性的初始化
 $demo->name='php';
 
+//访问
 echo $demo->name;
