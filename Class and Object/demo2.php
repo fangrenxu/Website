@@ -14,7 +14,7 @@ class GrilFriend1
 
     //构造方法，在外部new，实例化的时候自动调用
     //$this：当前类实例的引用
-    public function __construct($name, $age, $bhw)
+    public function __construct($name, $age, $bhw)//类实例化的时候，会自动调用
     {
         $this->name = $name;
         $this->age = $age;
