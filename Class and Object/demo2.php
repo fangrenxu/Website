@@ -28,7 +28,7 @@ class GrilFriend1
         return $hobby;
     }
     //输出女朋友的基本信息
-    public function  ()
+    public function getInfo()
     {
         //访问
         $res = '女朋友的';
