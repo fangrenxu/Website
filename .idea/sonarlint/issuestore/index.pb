@@ -75,3 +75,13 @@ B
 function/demo3.php,d\9\d989fa518418b4d7250f71bf42c6486a34b904a2
 B
 function/demo4.php,7\4\74ab53e441fee9cb43d9ef8ef8c9954be8e13692
+B
+function/demo5.php,9\2\9267d2ae975aaa7db5c2af7ec31463533a58c78a
+J
+Class and Object/demo0.php,5\3\537c60528a118cc811b4fb90bcfb36bd0abd1b0d
+M
+Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
+\
+,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
+J
+Class and Object/demo1.php,3\7\37372ed33736831c4e07032a4a58a8567e61807e

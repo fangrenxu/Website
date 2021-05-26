@@ -28,7 +28,7 @@ class GrilFriend1
         return $hobby;
     }
     //输出女朋友的基本信息
-    public function getInfo()
+    public function  ()
     {
         //访问
         $res = '女朋友的';
@@ -47,3 +47,5 @@ $girl1 = new GrilFriend1('牡丹',24,[83,60,84]);
 
 
 echo '<hr>';
+
+$girl1 = new GrilFriend1('玫瑰',23,[85,66,86]);
