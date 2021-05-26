@@ -81,7 +81,5 @@ J
 Class and Object/demo0.php,5\3\537c60528a118cc811b4fb90bcfb36bd0abd1b0d
 M
 Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
-\
-,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
 J
 Class and Object/demo1.php,3\7\37372ed33736831c4e07032a4a58a8567e61807e
