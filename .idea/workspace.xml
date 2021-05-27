@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="在继承上下文中的封装">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class and Object/demo5.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/类与对象的基本知识.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/类与对象的基本知识.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +174,7 @@
       <workItem from="1621913088863" duration="16168000" />
       <workItem from="1622009879265" duration="3390000" />
       <workItem from="1622017171833" duration="10672000" />
-      <workItem from="1622085528675" duration="6799000" />
-    </task>
-    <task id="LOCAL-00079" summary="分页的基本原理文档">
-      <created>1621520377730</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1621520377730</updated>
+      <workItem from="1622085528675" duration="7096000" />
     </task>
     <task id="LOCAL-00080" summary="Ajax实现表格数据分页显示">
       <created>1621578809733</created>
@@ -520,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622102971690</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="在继承上下文中的封装">
+      <created>1622114301287</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1622114301287</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
