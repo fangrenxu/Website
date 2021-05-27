@@ -83,3 +83,7 @@ M
 Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
 J
 Class and Object/demo1.php,3\7\37372ed33736831c4e07032a4a58a8567e61807e
+J
+Class and Object/demo2.php,f\7\f748d81f3aac4a71d03befbdd68c3e01677ad90d
+\
+,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
