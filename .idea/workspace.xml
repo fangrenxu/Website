@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类的成员可见性（封装）">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="在继承上下文中的封装">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class and Object/demo4.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class and Object/demo5.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo5.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +74,8 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo4.php">
+  <component name="RunManager" selected="PHP 脚本.demo5.php">
     <configuration name="demo0.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo0.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="demo1.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo1.php">
       <method v="2" />
     </configuration>
     <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo2.php">
@@ -90,13 +87,16 @@
     <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo4.php">
       <method v="2" />
     </configuration>
+    <configuration name="demo5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo5.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo5.php" />
         <item itemvalue="PHP 脚本.demo4.php" />
         <item itemvalue="PHP 脚本.demo3.php" />
         <item itemvalue="PHP 脚本.demo2.php" />
         <item itemvalue="PHP 脚本.demo0.php" />
-        <item itemvalue="PHP 脚本.demo1.php (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,21 +175,7 @@
       <workItem from="1621913088863" duration="16168000" />
       <workItem from="1622009879265" duration="3390000" />
       <workItem from="1622017171833" duration="10672000" />
-      <workItem from="1622085528675" duration="1922000" />
-    </task>
-    <task id="LOCAL-00077" summary="ajax显示电影分类">
-      <created>1621505172883</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1621505172883</updated>
-    </task>
-    <task id="LOCAL-00078" summary="ajax显示电影分类">
-      <created>1621516689476</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1621516689476</updated>
+      <workItem from="1622085528675" duration="6799000" />
     </task>
     <task id="LOCAL-00079" summary="分页的基本原理文档">
       <created>1621520377730</created>
@@ -520,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622036118301</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="类的成员可见性（封装）">
+      <created>1622102938833</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1622102938833</updated>
+    </task>
+    <task id="LOCAL-00127" summary="在继承上下文中的封装">
+      <created>1622102971690</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1622102971690</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajax异步更新文档" />
     <MESSAGE value="连接数据库，请求返回的值" />
     <MESSAGE value="连接数据库，请求返回" />
     <MESSAGE value="ajax显示电影分类" />
@@ -564,7 +563,8 @@
     <MESSAGE value="类的扩展（继承）" />
     <MESSAGE value="类的扩展（继承）&#10;子类继承父类，重写方法" />
     <MESSAGE value="类的成员可见性（封装）" />
-    <option name="LAST_COMMIT_MESSAGE" value="类的成员可见性（封装）" />
+    <MESSAGE value="在继承上下文中的封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="在继承上下文中的封装" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
