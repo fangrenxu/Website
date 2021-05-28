@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类与对象的基本知识文档">
-      <change afterPath="$PROJECT_DIR$/Documentation/类与类的实例化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类与类的实例化文档">
+      <change beforePath="$PROJECT_DIR$/Documentation/类与类的实例化.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/类与类的实例化.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +174,7 @@
       <workItem from="1622009879265" duration="3390000" />
       <workItem from="1622017171833" duration="10672000" />
       <workItem from="1622085528675" duration="7999000" />
-      <workItem from="1622174355038" duration="1948000" />
-    </task>
-    <task id="LOCAL-00081" summary="Ajax实现表格数据分页显示">
-      <created>1621578829106</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1621578829106</updated>
+      <workItem from="1622174355038" duration="2199000" />
     </task>
     <task id="LOCAL-00082" summary="Ajax实现表格数据分页显示">
       <created>1621580863940</created>
@@ -521,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622114607120</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="类与类的实例化文档">
+      <created>1622179548483</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1622179548484</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="连接数据库，请求返回" />
     <MESSAGE value="ajax显示电影分类" />
     <MESSAGE value="分页的基本原理文档" />
     <MESSAGE value="Ajax实现表格数据分页显示" />
@@ -565,7 +562,8 @@
     <MESSAGE value="类的成员可见性（封装）" />
     <MESSAGE value="在继承上下文中的封装" />
     <MESSAGE value="类与对象的基本知识文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="类与对象的基本知识文档" />
+    <MESSAGE value="类与类的实例化文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="类与类的实例化文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
