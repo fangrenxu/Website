@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="细说实例方法的功能">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="细说实例方法与实战案例">
+      <change afterPath="$PROJECT_DIR$/Class and Object/demo7.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class and Object/demo6.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo6.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +74,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo6.php">
-    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo2.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP 脚本.demo7.php">
     <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo3.php">
       <method v="2" />
     </configuration>
@@ -90,13 +87,16 @@
     <configuration name="demo6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo6.php">
       <method v="2" />
     </configuration>
+    <configuration name="demo7.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo7.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo7.php" />
         <item itemvalue="PHP 脚本.demo6.php" />
         <item itemvalue="PHP 脚本.demo4.php" />
         <item itemvalue="PHP 脚本.demo5.php" />
         <item itemvalue="PHP 脚本.demo3.php" />
-        <item itemvalue="PHP 脚本.demo2.php" />
       </list>
     </recent_temporary>
   </component>
@@ -181,14 +181,8 @@
       <workItem from="1622275139429" duration="604000" />
       <workItem from="1622278550542" duration="8000" />
       <workItem from="1622298185531" duration="617000" />
-      <workItem from="1622367318191" duration="1859000" />
-    </task>
-    <task id="LOCAL-00084" summary="Ajax实现表格数据分页显示">
-      <created>1621584055389</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1621584055390</updated>
+      <workItem from="1622367318191" duration="1876000" />
+      <workItem from="1622381739300" duration="2078000" />
     </task>
     <task id="LOCAL-00085" summary="Ajax实现表格数据分页显示">
       <created>1621587816099</created>
@@ -526,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622273836431</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="细说实例方法与实战案例">
+      <created>1622372212426</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1622372212426</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="分页的基本原理文档" />
     <MESSAGE value="Ajax实现表格数据分页显示" />
     <MESSAGE value="学习文档" />
     <MESSAGE value="最新影视剧介绍" />
@@ -570,7 +570,8 @@
     <MESSAGE value="类与对象的基本知识文档" />
     <MESSAGE value="类与类的实例化文档" />
     <MESSAGE value="细说实例方法的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="细说实例方法的功能" />
+    <MESSAGE value="细说实例方法与实战案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="细说实例方法与实战案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
