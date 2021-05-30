@@ -24,6 +24,28 @@ class  Demo6
 
 }
 
+
+class Client
+{
+    public $instance = null;
+    //类的实例化
+    public function getInstance($class)
+    {
+        $this->instance =new $class;
+    }
+
+}
+
+//客户端代码调用
+$client = new Client();
+$client->getInstance('Demo6');
+echo $client->instance->getInfo2();//Demo6的实例
+
+echo '<hr>';
+
+
+
+//自调用，自启动
 $obj = new Demo6();
 echo $obj->getInfo1();
 echo '<hr>';

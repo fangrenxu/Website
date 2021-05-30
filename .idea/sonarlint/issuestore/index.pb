@@ -93,3 +93,5 @@ J
 Class and Object/demo1.php,3\7\37372ed33736831c4e07032a4a58a8567e61807e
 J
 Class and Object/demo2.php,f\7\f748d81f3aac4a71d03befbdd68c3e01677ad90d
+V
+&Documentation/类与类的实例化.md,c\d\cd9bb1adfba8fa9aa58bac53b401da6ab27c607d
