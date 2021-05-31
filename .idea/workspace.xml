@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类的继承，功能扩展，方法重写">
+      <change afterPath="$PROJECT_DIR$/Class and Object/demo9.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class and Object/demo8.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo8.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,14 +184,8 @@
       <workItem from="1622367318191" duration="1876000" />
       <workItem from="1622381739300" duration="2223000" />
       <workItem from="1622430805318" duration="3825000" />
-      <workItem from="1622444994582" duration="2743000" />
-    </task>
-    <task id="LOCAL-00089" summary="最新影视剧介绍">
-      <created>1621598087359</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1621598087359</updated>
+      <workItem from="1622444994582" duration="2760000" />
+      <workItem from="1622449129056" duration="1886000" />
     </task>
     <task id="LOCAL-00090" summary="细说函数">
       <created>1621598103891</created>
@@ -529,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622439832047</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="类的继承，功能扩展，方法重写">
+      <created>1622449114225</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1622449114225</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
