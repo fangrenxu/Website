@@ -33,11 +33,58 @@ echo $sub1->getInfo(),'<hr>';
 
 class Sub2 extends Demo8
 {
-    public $sum;//子类自有的
-    public function __construct($product, $price,$sum)
+    public $num;//子类自有的
+
+    //重写了父类的同名的构造方法
+    public function __construct($product, $price,$num)
     {
-        $this->product = $product;
-        $this->price = $price;
-        $this->sum = $sum;
+        parent::__construct($product,$price);
+        $this->num=$num;
+    }
+
+    //计算总价
+    public function total()
+    {
+        return $this->price * $this->num;
     }
 }
+
+//实例化子类Sub2
+$sub2 = new Sub2('电脑',4980,15);
+
+
+echo $sub2->product.'的总价：'.$sub2->total().'元'.'<hr>';
+
+/**************************************************************************************************/
+
+class Sub3 extends Sub2
+{
+    //方法重写：total()
+    public function total()
+    {
+        $total = parent::total();
+
+        //设置折扣率
+        switch(true)
+        {
+            case($total >= 10000 && $total < 20000);
+                $discountRate = 0.98; //98折
+                break;
+            case($total >= 20000 && $total < 40000);
+                $discountRate = 0.88; //98折
+                break;
+            case($total >= 40000 && $total < 60000);
+                $discountRate = 0.78; //98折
+                break;
+            case($total >= 60000);
+                $discountRate = 0.68; //98折
+                break;
+            default:    //小于10000
+                $discountRate = 1;
+        }
+        return round ($total * $discountRate,2);
+    }
+}
+
+$sub3 = new Sub3('电脑',4980,15);
+echo '折扣价：'.$sub3->total().'元'.'<hr>';
