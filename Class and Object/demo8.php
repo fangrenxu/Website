@@ -30,3 +30,14 @@ $sub1 = new Sub1('手机',5000);
 echo $sub1->getInfo(),'<hr>';
 
 /**************************************************************************************************/
+
+class Sub2 extends Demo8
+{
+    public $sum;//子类自有的
+    public function __construct($product, $price,$sum)
+    {
+        $this->product = $product;
+        $this->price = $price;
+        $this->sum = $sum;
+    }
+}
