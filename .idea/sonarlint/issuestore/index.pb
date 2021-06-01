@@ -90,4 +90,10 @@ V
 J
 Class and Object/demo2.php,f\7\f748d81f3aac4a71d03befbdd68c3e01677ad90d
 J
+Class and Object/demo4.php,4\6\46c9b0a5ca9dda973cae236db0076f407ec91c35
+J
+Class and Object/demo5.php,9\1\91b51d9d4f5179fe2af44de76af7e7c8a50e5839
+J
+Class and Object/demo6.php,5\c\5caa397244d877c14dc0d0443c9254604db5cf81
+J
 Class and Object/demo7.php,f\1\f124ce660c6bce7dc1f61917d493e6fa817dc15f

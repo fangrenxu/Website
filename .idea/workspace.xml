@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类的继承，功能扩展，方法重写">
-      <change afterPath="$PROJECT_DIR$/Class and Object/demo9.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="细说类成员的访问控制&#10;public：公共/公开，类的外部，类的内部，子类中也可以&#10;protected：受保护的成员，对外不能访问，但对类的内部，以及它的子类是开放的，是可以访问的&#10;private：私有的，对外不开放，对子类也不开放，只对自己的类开放，只允许在当前类中的访问">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class and Object/demo9.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo9.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +74,8 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo8.php">
+  <component name="RunManager" selected="PHP 脚本.demo9.php">
     <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo4.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="demo5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo5.php">
       <method v="2" />
     </configuration>
     <configuration name="demo6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo6.php">
@@ -90,13 +87,16 @@
     <configuration name="demo8.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo8.php">
       <method v="2" />
     </configuration>
+    <configuration name="demo9.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo9.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo9.php" />
         <item itemvalue="PHP 脚本.demo8.php" />
         <item itemvalue="PHP 脚本.demo7.php" />
         <item itemvalue="PHP 脚本.demo6.php" />
         <item itemvalue="PHP 脚本.demo4.php" />
-        <item itemvalue="PHP 脚本.demo5.php" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +185,8 @@
       <workItem from="1622381739300" duration="2223000" />
       <workItem from="1622430805318" duration="3825000" />
       <workItem from="1622444994582" duration="2760000" />
-      <workItem from="1622449129056" duration="1886000" />
-    </task>
-    <task id="LOCAL-00090" summary="细说函数">
-      <created>1621598103891</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1621598103891</updated>
+      <workItem from="1622449129056" duration="8156000" />
+      <workItem from="1622472368759" duration="4985000" />
     </task>
     <task id="LOCAL-00091" summary="函数的声明">
       <created>1621607021143</created>
@@ -530,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622449114225</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="细说类成员的访问控制&#10;public：公共/公开，类的外部，类的内部，子类中也可以&#10;protected：受保护的成员，对外不能访问，但对类的内部，以及它的子类是开放的，是可以访问的&#10;private：私有的，对外不开放，对子类也不开放，只对自己的类开放，只允许在当前类中的访问">
+      <created>1622451077789</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1622451077789</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +550,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最新影视剧介绍" />
     <MESSAGE value="细说函数" />
     <MESSAGE value="函数的声明" />
     <MESSAGE value="函数的参数与返回类型" />
@@ -574,7 +574,8 @@
     <MESSAGE value="细说实例方法与实战案例" />
     <MESSAGE value="构造方法" />
     <MESSAGE value="类的继承，功能扩展，方法重写" />
-    <option name="LAST_COMMIT_MESSAGE" value="类的继承，功能扩展，方法重写" />
+    <MESSAGE value="细说类成员的访问控制&#10;public：公共/公开，类的外部，类的内部，子类中也可以&#10;protected：受保护的成员，对外不能访问，但对类的内部，以及它的子类是开放的，是可以访问的&#10;private：私有的，对外不开放，对子类也不开放，只对自己的类开放，只允许在当前类中的访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="细说类成员的访问控制&#10;public：公共/公开，类的外部，类的内部，子类中也可以&#10;protected：受保护的成员，对外不能访问，但对类的内部，以及它的子类是开放的，是可以访问的&#10;private：私有的，对外不开放，对子类也不开放，只对自己的类开放，只允许在当前类中的访问" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
