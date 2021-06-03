@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="细说类成员的访问控制&#10;public：公共/公开，类的外部，类的内部，子类中也可以&#10;protected：受保护的成员，对外不能访问，但对类的内部，以及它的子类是开放的，是可以访问的&#10;private：私有的，对外不开放，对子类也不开放，只对自己的类开放，只允许在当前类中的访问">
+      <change afterPath="$PROJECT_DIR$/Documentation/对象进阶.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class and Object/demo9.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Object/demo9.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +74,11 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo9.php">
-    <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo4.php">
+  <component name="RunManager" selected="PHP 脚本.demo10.php">
+    <configuration name="login.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo6.php">
+    <configuration name="demo10.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo10.php">
       <method v="2" />
     </configuration>
     <configuration name="demo7.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo7.php">
@@ -92,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo10.php" />
+        <item itemvalue="JavaScript 调试.login.php" />
         <item itemvalue="PHP 脚本.demo9.php" />
         <item itemvalue="PHP 脚本.demo8.php" />
         <item itemvalue="PHP 脚本.demo7.php" />
-        <item itemvalue="PHP 脚本.demo6.php" />
-        <item itemvalue="PHP 脚本.demo4.php" />
       </list>
     </recent_temporary>
   </component>
@@ -186,14 +186,12 @@
       <workItem from="1622430805318" duration="3825000" />
       <workItem from="1622444994582" duration="2760000" />
       <workItem from="1622449129056" duration="8156000" />
-      <workItem from="1622472368759" duration="4985000" />
-    </task>
-    <task id="LOCAL-00091" summary="函数的声明">
-      <created>1621607021143</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1621607021144</updated>
+      <workItem from="1622472368759" duration="8566000" />
+      <workItem from="1622540171803" duration="3191000" />
+      <workItem from="1622610170549" duration="8000" />
+      <workItem from="1622612981793" duration="4619000" />
+      <workItem from="1622689339974" duration="3063000" />
+      <workItem from="1622713083319" duration="962000" />
     </task>
     <task id="LOCAL-00092" summary="函数的参数">
       <created>1621607306287</created>
@@ -531,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622451077789</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="细说类成员的访问控制&#10;public：公共/公开，类的外部，类的内部，子类中也可以&#10;protected：受保护的成员，对外不能访问，但对类的内部，以及它的子类是开放的，是可以访问的&#10;private：私有的，对外不开放，对子类也不开放，只对自己的类开放，只允许在当前类中的访问">
+      <created>1622530183482</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1622530183482</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

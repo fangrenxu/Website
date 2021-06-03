@@ -21,8 +21,6 @@ C
 course1/couerse1.md,c\c\cc3d64af0acb57def35cf44004e54cf9aeaecd35
 A
 lesson1/admin.php,7\5\754907818f82a24c62cad2d3e51729d02deb0a3d
-A
-lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
 B
 lesson1/logout.php,3\0\309845946b5da1c8a6af6b34cee743a1b5ef8cb8
 B
@@ -35,8 +33,6 @@ C
 lesson1/logout2.php,4\8\489255e894de30c63cdaf9afa68ad2bfd35e6055
 C
 lesson1/session.php,8\2\82bc61532304b1998bd18b7e433ce66f5b30f7e7
-A
-lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
 A
 lesson1/show.html,b\d\bd2de3d2f63cfa8683954681559f412c7a41ed41
 D
@@ -77,8 +73,6 @@ B
 function/demo4.php,7\4\74ab53e441fee9cb43d9ef8ef8c9954be8e13692
 B
 function/demo5.php,9\2\9267d2ae975aaa7db5c2af7ec31463533a58c78a
-J
-Class and Object/demo0.php,5\3\537c60528a118cc811b4fb90bcfb36bd0abd1b0d
 M
 Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
 \
@@ -97,3 +91,15 @@ J
 Class and Object/demo6.php,5\c\5caa397244d877c14dc0d0443c9254604db5cf81
 J
 Class and Object/demo7.php,f\1\f124ce660c6bce7dc1f61917d493e6fa817dc15f
+J
+Class and Object/demo3.php,9\c\9c28d07591067d01ae8c87595198f75c9812b76f
+J
+Class and Object/demo8.php,1\6\16622bd3e5456265407e9253b7c0ee9fca943d7f
+J
+Class and Object/demo9.php,a\3\a3a40141cbb4d215cf6794241e082c253f53d934
+J
+Class and Object/demo0.php,5\3\537c60528a118cc811b4fb90bcfb36bd0abd1b0d
+A
+lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
+A
+lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
