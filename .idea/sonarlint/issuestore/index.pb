@@ -73,14 +73,8 @@ B
 function/demo4.php,7\4\74ab53e441fee9cb43d9ef8ef8c9954be8e13692
 B
 function/demo5.php,9\2\9267d2ae975aaa7db5c2af7ec31463533a58c78a
-M
-Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
-\
-,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
 J
 Class and Object/demo1.php,3\7\37372ed33736831c4e07032a4a58a8567e61807e
-V
-&Documentation/类与类的实例化.md,c\d\cd9bb1adfba8fa9aa58bac53b401da6ab27c607d
 J
 Class and Object/demo2.php,f\7\f748d81f3aac4a71d03befbdd68c3e01677ad90d
 J
@@ -94,8 +88,6 @@ J
 J
 Class and Object/demo3.php,9\c\9c28d07591067d01ae8c87595198f75c9812b76f
 J
-Class and Object/demo8.php,1\6\16622bd3e5456265407e9253b7c0ee9fca943d7f
-J
 Class and Object/demo9.php,a\3\a3a40141cbb4d215cf6794241e082c253f53d934
 J
 Class and Object/demo0.php,5\3\537c60528a118cc811b4fb90bcfb36bd0abd1b0d
@@ -103,3 +95,17 @@ A
 lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
 A
 lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
+J
+Class and Object/demo8.php,1\6\16622bd3e5456265407e9253b7c0ee9fca943d7f
+M
+Documentation/对象进阶.md,f\3\f3cb73a6ce1b9a5b88932bf57153c620e5b15d6e
+@
+Class2/demo1.php,b\a\ba17bfb253b5f53204a8ac940c11982ccb90941f
+@
+Class2/demo2.php,9\7\97b85b77f66d6fcfc3027cd6a54b21f8ebf6d6e6
+M
+Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
+V
+&Documentation/类与类的实例化.md,c\d\cd9bb1adfba8fa9aa58bac53b401da6ab27c607d
+\
+,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4

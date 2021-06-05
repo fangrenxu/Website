@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="对象进阶的文档">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类成员的属性重载技术">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class2/demo3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class2/demo3.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,29 +74,29 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo10.php">
+  <component name="RunManager" selected="PHP 脚本.demo3.php">
     <configuration name="login.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="demo10.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo10.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo7.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo7.php">
+    <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class2/demo1.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo8.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo8.php">
+    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class2/demo2.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo9.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo9.php">
+    <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class2/demo3.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo3.php" />
+        <item itemvalue="PHP 脚本.demo2.php" />
+        <item itemvalue="PHP 脚本.demo1.php" />
         <item itemvalue="PHP 脚本.demo10.php" />
         <item itemvalue="JavaScript 调试.login.php" />
-        <item itemvalue="PHP 脚本.demo9.php" />
-        <item itemvalue="PHP 脚本.demo8.php" />
-        <item itemvalue="PHP 脚本.demo7.php" />
       </list>
     </recent_temporary>
   </component>
@@ -190,48 +192,11 @@
       <workItem from="1622612981793" duration="4619000" />
       <workItem from="1622689339974" duration="3063000" />
       <workItem from="1622713083319" duration="1891000" />
-    </task>
-    <task id="LOCAL-00093" summary="函数的参数">
-      <created>1621609081879</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1621609081880</updated>
-    </task>
-    <task id="LOCAL-00094" summary="函数的参数">
-      <created>1621677055144</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1621677055145</updated>
-    </task>
-    <task id="LOCAL-00095" summary="函数的参数">
-      <created>1621681964610</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1621681964610</updated>
-    </task>
-    <task id="LOCAL-00096" summary="函数的参数与返回类型">
-      <created>1621684814253</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1621684814253</updated>
-    </task>
-    <task id="LOCAL-00097" summary="函数的参数">
-      <created>1621686220772</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1621686220772</updated>
-    </task>
-    <task id="LOCAL-00098" summary="函数的返回值">
-      <created>1621686251567</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1621686251567</updated>
+      <workItem from="1622720197960" duration="6545000" />
+      <workItem from="1622785605110" duration="4129000" />
+      <workItem from="1622807374783" duration="7235000" />
+      <workItem from="1622862249507" duration="5682000" />
+      <workItem from="1622896528530" duration="2449000" />
     </task>
     <task id="LOCAL-00099" summary="函数的返回值">
       <created>1621688312163</created>
@@ -534,7 +499,49 @@
       <option name="project" value="LOCAL" />
       <updated>1622714340128</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="类属性与类方法（静态成员）">
+      <created>1622720321756</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1622720321756</updated>
+    </task>
+    <task id="LOCAL-00143" summary="静态成员的定义成访问">
+      <created>1622724861180</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1622724861180</updated>
+    </task>
+    <task id="LOCAL-00144" summary="类常量的定义与访问">
+      <created>1622727879410</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1622727879410</updated>
+    </task>
+    <task id="LOCAL-00145" summary="类常量的定义与访问">
+      <created>1622788682677</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1622788682677</updated>
+    </task>
+    <task id="LOCAL-00146" summary="对象进阶的文档">
+      <created>1622811623748</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1622811623748</updated>
+    </task>
+    <task id="LOCAL-00147" summary="类成员的属性重载技术">
+      <created>1622812126112</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1622812126112</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,10 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="函数的声明" />
-    <MESSAGE value="函数的参数与返回类型" />
-    <MESSAGE value="函数的参数" />
-    <MESSAGE value="更新细说函数的文档" />
     <MESSAGE value="函数的常规声明与调用" />
     <MESSAGE value="函数的参数类型" />
     <MESSAGE value="函数的返回值" />
@@ -577,8 +580,12 @@
     <MESSAGE value="构造方法" />
     <MESSAGE value="类的继承，功能扩展，方法重写" />
     <MESSAGE value="细说类成员的访问控制&#10;public：公共/公开，类的外部，类的内部，子类中也可以&#10;protected：受保护的成员，对外不能访问，但对类的内部，以及它的子类是开放的，是可以访问的&#10;private：私有的，对外不开放，对子类也不开放，只对自己的类开放，只允许在当前类中的访问" />
+    <MESSAGE value="类属性与类方法（静态成员）" />
+    <MESSAGE value="静态成员的定义成访问" />
+    <MESSAGE value="类常量的定义与访问" />
     <MESSAGE value="对象进阶的文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="对象进阶的文档" />
+    <MESSAGE value="类成员的属性重载技术" />
+    <option name="LAST_COMMIT_MESSAGE" value="类成员的属性重载技术" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
