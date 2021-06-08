@@ -45,3 +45,5 @@ class Test2
 
 echo call_user_func_array(['Test2','sum'],[200,80]),'<br>';//第一个是类，第二个是方法，第三个是输入的数组
 echo call_user_func_array('Test2::sum',[60,10]),'<br>';
+//echo Test2::class;//查询某一个类的名称是什么
+echo call_user_func_array([Test2::class,'sum'],[240,60]),'<br>';
