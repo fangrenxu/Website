@@ -1,8 +1,6 @@
 
 B
 lesson1/cookie.php,e\1\e185be9e19fd76175324072285b47592708f5847
-G
-coures2/inc/connect.php,1\2\12a3f29fbb309a72fade4d7ad7cbb702a30e1573
 H
 coures2/inc/database.php,0\8\08fe0864271a295cb41129d4e0aa48d04c8ef99f
 G
@@ -48,8 +46,6 @@ Y
 ]
 -Documentation/数据库的结构和数据.sql,4\f\4fa0c39ed25a8cce511e03810ee118fa238295e3
 H
-Documentation/course2.md,6\8\68abc6b33d8ffdeb05c9d2d6bd33a14dd7ff01f1
-H
 Documentation/lesson1.md,c\b\cb026c2166829d620940f55ac0449dd023e3f6f0
 D
 Documentation/pdo.md,d\9\d956eff02c89ea980e0c6d609f43394a5774d508
@@ -91,21 +87,33 @@ J
 Class and Object/demo9.php,a\3\a3a40141cbb4d215cf6794241e082c253f53d934
 J
 Class and Object/demo0.php,5\3\537c60528a118cc811b4fb90bcfb36bd0abd1b0d
-A
-lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
-A
-lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
 J
 Class and Object/demo8.php,1\6\16622bd3e5456265407e9253b7c0ee9fca943d7f
-M
-Documentation/对象进阶.md,f\3\f3cb73a6ce1b9a5b88932bf57153c620e5b15d6e
 @
 Class2/demo1.php,b\a\ba17bfb253b5f53204a8ac940c11982ccb90941f
 @
 Class2/demo2.php,9\7\97b85b77f66d6fcfc3027cd6a54b21f8ebf6d6e6
 M
 Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
+H
+Documentation/course2.md,6\8\68abc6b33d8ffdeb05c9d2d6bd33a14dd7ff01f1
 V
 &Documentation/类与类的实例化.md,c\d\cd9bb1adfba8fa9aa58bac53b401da6ab27c607d
 \
 ,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
+@
+Class2/demo3.php,8\b\8b617dd9f404f2c9d9e7e6adb6a6bb6f2d5940b6
+M
+Documentation/对象进阶.md,f\3\f3cb73a6ce1b9a5b88932bf57153c620e5b15d6e
+@
+Class2/demo4.php,6\f\6fcccd5fe37849720e9b4f0d3285b17abe6a25db
+G
+coures2/inc/connect.php,1\2\12a3f29fbb309a72fade4d7ad7cbb702a30e1573
+F
+course1/lesson2/rh.php,7\d\7d8d583654903c836ced7e2a37562eb140a5c820
+B
+coures2/insert.php,4\2\42b17d7b2a47622cdb2b7a41cfefd7956d293173
+A
+lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
+A
+lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763

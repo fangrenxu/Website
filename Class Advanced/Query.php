@@ -31,4 +31,25 @@ class Query
         //关键是这一步
         return $this;
     }
+
+    //调用字段
+    public function field($field)
+    {
+        $this->field = $field;
+        //关键是这一步
+        return $this;
+    }
+
+    //设置查询条件
+    public function where($where)
+    {
+        $this->where = $where;
+        return $this;
+    }
+    //设置显示数量
+    public function limit($limit)
+    {
+        $this->limit = $limit;
+        return $this;
+    }
 }

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类成员的属性重载技术">
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="常用的数据查询操作">
+      <change afterPath="$PROJECT_DIR$/Class2/demo5.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class2/demo3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class2/demo3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class2/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class2/Query.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="PsalmProjectConfiguration">
@@ -74,29 +75,29 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo3.php">
-    <configuration name="login.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php/lesson1/login.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="PHP 脚本.Query.php">
+    <configuration name="Query.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/Query.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo10.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class and Object/demo10.php">
+    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo2.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class2/demo1.php">
+    <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo3.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class2/demo2.php">
+    <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo4.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class2/demo3.php">
+    <configuration name="demo5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo5.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.Query.php" />
+        <item itemvalue="PHP 脚本.demo5.php" />
+        <item itemvalue="PHP 脚本.demo4.php" />
         <item itemvalue="PHP 脚本.demo3.php" />
         <item itemvalue="PHP 脚本.demo2.php" />
-        <item itemvalue="PHP 脚本.demo1.php" />
-        <item itemvalue="PHP 脚本.demo10.php" />
-        <item itemvalue="JavaScript 调试.login.php" />
       </list>
     </recent_temporary>
   </component>
@@ -196,35 +197,16 @@
       <workItem from="1622785605110" duration="4129000" />
       <workItem from="1622807374783" duration="7235000" />
       <workItem from="1622862249507" duration="5682000" />
-      <workItem from="1622896528530" duration="2449000" />
-    </task>
-    <task id="LOCAL-00099" summary="函数的返回值">
-      <created>1621688312163</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1621688312163</updated>
-    </task>
-    <task id="LOCAL-00100" summary="函数的返回值">
-      <created>1621693401569</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1621693401570</updated>
-    </task>
-    <task id="LOCAL-00101" summary="更新细说函数的文档">
-      <created>1621693540513</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1621693540513</updated>
-    </task>
-    <task id="LOCAL-00102" summary="函数的常规声明与调用">
-      <created>1621693565193</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1621693565193</updated>
+      <workItem from="1622896528530" duration="3099000" />
+      <workItem from="1622949062727" duration="1198000" />
+      <workItem from="1623036510409" duration="142000" />
+      <workItem from="1623036665614" duration="4188000" />
+      <workItem from="1623142748318" duration="3616000" />
+      <workItem from="1623159418238" duration="45000" />
+      <workItem from="1623159868110" duration="2969000" />
+      <workItem from="1623209126287" duration="6853000" />
+      <workItem from="1623303990041" duration="1753000" />
+      <workItem from="1623312542755" duration="318000" />
     </task>
     <task id="LOCAL-00103" summary="函数的参数类型">
       <created>1621693593161</created>
@@ -541,7 +523,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622812126112</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="类成员的属性重载技术">
+      <created>1622902757778</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1622902757778</updated>
+    </task>
+    <task id="LOCAL-00149" summary="类成员的方法重载">
+      <created>1623159453229</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1623159453229</updated>
+    </task>
+    <task id="LOCAL-00150" summary="类成员的方法重载">
+      <created>1623161272543</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1623161272543</updated>
+    </task>
+    <task id="LOCAL-00151" summary="常用的数据查询操作">
+      <created>1623311810015</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1623311810015</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,8 +570,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="函数的常规声明与调用" />
-    <MESSAGE value="函数的参数类型" />
     <MESSAGE value="函数的返回值" />
     <MESSAGE value="函数中的变量访问" />
     <MESSAGE value="匿名函数与闭包的知识" />
@@ -585,7 +593,9 @@
     <MESSAGE value="类常量的定义与访问" />
     <MESSAGE value="对象进阶的文档" />
     <MESSAGE value="类成员的属性重载技术" />
-    <option name="LAST_COMMIT_MESSAGE" value="类成员的属性重载技术" />
+    <MESSAGE value="类成员的方法重载" />
+    <MESSAGE value="常用的数据查询操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="常用的数据查询操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
