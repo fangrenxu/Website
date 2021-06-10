@@ -33,9 +33,9 @@ class Query
     }
 
     //调用字段
-    public function field($field)
+    public function field($fields)
     {
-        $this->field = $field;
+        $this->field = $fields;
         //关键是这一步
         return $this;
     }
@@ -57,12 +57,12 @@ class Query
     public function select()
     {
         //设置查询条件
-        $field = empty($this->field) ? '*' : $this->field;
-        $where = empty($this->where) ? '' : 'WHERE' . $this->where;
-        $limit = empty($this->limit) ? '' : 'LIMIT' . $this->limit;
+        $fields = empty($this->field) ? '*' : $this->field;
+        $where = empty($this->where) ? '' : ' WHERE ' . $this->where;
+        $limit = empty($this->limit) ? '' : ' LIMIT ' . $this->limit;
 
         //SQL
-        $sql = 'SELECT '.$field. 'FROM' .$this->table. $where . $limit;
+        $sql = 'SELECT '.$fields. 'FROM' .$this->table. $where . $limit;
 
         //预处理执行
         $stmt = $this->pdo->prepare($sql);
