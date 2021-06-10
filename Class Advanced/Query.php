@@ -19,7 +19,7 @@ class Query
 
 
     //构造方法
-    public function __construct($pdo)
+    public function __construct(PDO $pdo)
     {
         $this->pdo = $pdo;
     }
@@ -51,5 +51,22 @@ class Query
     {
         $this->limit = $limit;
         return $this;
+    }
+
+    //创建SQL语句查询
+    public function select()
+    {
+        //设置查询条件
+        $field = empty($this->field) ? '*' : $this->field;
+        $where = empty($this->where) ? '' : 'WHERE' . $this->where;
+        $limit = empty($this->limit) ? '' : 'LIMIT' . $this->limit;
+
+        //SQL
+        $sql = 'SELECT '.$field. 'FROM' .$this->table. $where . $limit;
+
+        //预处理执行
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }
