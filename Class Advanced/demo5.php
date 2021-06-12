@@ -1,7 +1,7 @@
 <?php
 //方法重载实例演示
 require 'Query.php';
-class Db
+class Database
 {
     //数据库连接对象
     protected static $pdo = null;
@@ -12,7 +12,7 @@ class Db
         self::$pdo = new PDO('mysql:host=127.0.0.1;dbname=php','root','admin');
     }
 
-    //静态方法的重载
+    //静态方法的重载，实现跨类调用
     public static function __callStatic($name,$arguments)
     {
         //连接上数据库
@@ -22,10 +22,17 @@ class Db
         $query = new Query(self::$pdo);
 
         //访问Query中的方法
-        return call_user_func_array([$query,$name],[0]);
+        return call_user_func_array([$query, $name],[$arguments[0]]);
     }
+
+
 }
 
-Db::table('db_name.think_user')//返回的是一个query对象
-    ->where('status>1')
+$cats = Database::table('category')
+    ->field('cate_id, name, alias')
+    ->where('cate_id>=2')
     ->select();
+
+foreach($cats as $cat){
+    print_r($cat);
+}
