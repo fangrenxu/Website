@@ -57,8 +57,6 @@ V
 &Documentation/数据库基本常识.md,e\8\e872285417f42042e2716d544b02d147f99874a7
 @
 lesson1/show.php,a\9\a9da444aeb65f7c623af844f9639ca619547efb6
-A
-coures2/index.php,f\0\f0effd5601fb815759bd3d9309cde3376e482a1d
 B
 function/demo2.php,5\3\53d8b7e2546197f2a9e0205c683ad52de0116fa1
 B
@@ -76,8 +74,6 @@ J
 J
 Class and Object/demo4.php,4\6\46c9b0a5ca9dda973cae236db0076f407ec91c35
 J
-Class and Object/demo5.php,9\1\91b51d9d4f5179fe2af44de76af7e7c8a50e5839
-J
 Class and Object/demo6.php,5\c\5caa397244d877c14dc0d0443c9254604db5cf81
 J
 Class and Object/demo7.php,f\1\f124ce660c6bce7dc1f61917d493e6fa817dc15f
@@ -89,10 +85,6 @@ J
 Class and Object/demo0.php,5\3\537c60528a118cc811b4fb90bcfb36bd0abd1b0d
 J
 Class and Object/demo8.php,1\6\16622bd3e5456265407e9253b7c0ee9fca943d7f
-@
-Class2/demo1.php,b\a\ba17bfb253b5f53204a8ac940c11982ccb90941f
-@
-Class2/demo2.php,9\7\97b85b77f66d6fcfc3027cd6a54b21f8ebf6d6e6
 M
 Documentation/细说函数.md,3\d\3d89c802c0a363fc8fb8501f19035851df4e9d02
 H
@@ -101,19 +93,29 @@ V
 &Documentation/类与类的实例化.md,c\d\cd9bb1adfba8fa9aa58bac53b401da6ab27c607d
 \
 ,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
-@
-Class2/demo3.php,8\b\8b617dd9f404f2c9d9e7e6adb6a6bb6f2d5940b6
 M
 Documentation/对象进阶.md,f\3\f3cb73a6ce1b9a5b88932bf57153c620e5b15d6e
-@
-Class2/demo4.php,6\f\6fcccd5fe37849720e9b4f0d3285b17abe6a25db
 G
 coures2/inc/connect.php,1\2\12a3f29fbb309a72fade4d7ad7cbb702a30e1573
 F
 course1/lesson2/rh.php,7\d\7d8d583654903c836ced7e2a37562eb140a5c820
-B
-coures2/insert.php,4\2\42b17d7b2a47622cdb2b7a41cfefd7956d293173
 A
 lesson1/check.php,4\e\4e495830356f884ef9b8fc78c50e65bdd50401d9
 A
 lesson1/login.php,2\b\2b05a9206ce9646c163b6245544a36d955bd3763
+H
+Class Advanced/demo2.php,f\1\f1b0bdaab7861369b3a4ab679e26f617e8eca048
+H
+Class Advanced/demo3.php,6\f\6fb5d1360068141e3c495966932e60b0951e0383
+H
+Class Advanced/demo4.php,2\6\261601a4f6e71e2ef015083f93052b1d0390d778
+I
+course1/lesson2/index.php,7\5\750f423943f1f4c12b4e4d6772e0112210a0a066
+B
+coures2/insert.php,4\2\42b17d7b2a47622cdb2b7a41cfefd7956d293173
+A
+coures2/index.php,f\0\f0effd5601fb815759bd3d9309cde3376e482a1d
+J
+Class and Object/demo5.php,9\1\91b51d9d4f5179fe2af44de76af7e7c8a50e5839
+H
+Class Advanced/demo1.php,1\a\1a380e89bded895b267a3ca74b2057f3073af484

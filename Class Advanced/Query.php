@@ -62,7 +62,7 @@ class Query
         $limit = empty($this->limit) ? '' : ' LIMIT ' . $this->limit;
 
         //SQL
-        $sql = 'SELECT '.$fields. 'FROM' .$this->table. $where . $limit;
+        $sql = 'SELECT '.$fields. ' FROM ' .$this->table. $where . $limit;
 
         //预处理执行
         $stmt = $this->pdo->prepare($sql);
