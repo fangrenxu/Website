@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="常用的数据查询操作&#10;找到问题了，是Query.php的第65行，做拼接的时候，忘了FROM前后应该加上空格。">
-      <change afterPath="$PROJECT_DIR$/Documentation/类与对象进阶.md" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新目录名称">
+      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/demo1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/inc/Test1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/inc/Test2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/inc/Test3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -59,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Advanced Class and Object/inc" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -70,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\php\Advanced Class and Object\inc" />
       <recent name="D:\phpstudy_pro\WWW\php\lesson1" />
       <recent name="D:\phpstudy_pro\WWW\php\coures2" />
     </key>
@@ -79,32 +83,32 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo5.php">
-    <configuration name="Query.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Class Advanced/Query.php">
+  <component name="RunManager" selected="PHP 脚本.demo1.php">
+    <configuration name="Query.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Advanced Class/Query.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo2.php">
+    <configuration name="Test1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class and Object/inc/Test1.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo3.php">
+    <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class and Object/demo1.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo4.php">
+    <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class/demo4.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo5.php">
+    <configuration name="demo5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class/demo5.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Class Advanced/demo6.php">
+    <configuration name="demo6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class/demo6.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo1.php" />
+        <item itemvalue="PHP 脚本.Test1.php" />
         <item itemvalue="PHP 脚本.demo5.php" />
         <item itemvalue="PHP 脚本.demo6.php" />
         <item itemvalue="PHP 脚本.demo4.php" />
-        <item itemvalue="PHP 脚本.demo3.php" />
-        <item itemvalue="PHP 脚本.demo2.php" />
       </list>
     </recent_temporary>
   </component>
@@ -219,21 +223,8 @@
       <workItem from="1623481290498" duration="3288000" />
       <workItem from="1623484614005" duration="11136000" />
       <workItem from="1623554272264" duration="5875000" />
-      <workItem from="1623640750161" duration="1834000" />
-    </task>
-    <task id="LOCAL-00114" summary="类与对象的关系">
-      <created>1621945000135</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1621945000135</updated>
-    </task>
-    <task id="LOCAL-00115" summary="创建一个类的例子">
-      <created>1621945910312</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1621945910312</updated>
+      <workItem from="1623640750161" duration="2648000" />
+      <workItem from="1623648497662" duration="6669000" />
     </task>
     <task id="LOCAL-00116" summary="创建一个类的例子">
       <created>1621945934142</created>
@@ -564,7 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623503668715</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="类与对象进阶">
+      <created>1623642600492</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1623642600492</updated>
+    </task>
+    <task id="LOCAL-00164" summary="更新目录名称">
+      <created>1623649414608</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1623649414608</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,8 +588,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="类与对象的基本知识的文档" />
-    <MESSAGE value="类与对象的关系" />
     <MESSAGE value="创建一个类的例子" />
     <MESSAGE value="类的构造方法" />
     <MESSAGE value="类的扩展（继承）" />
@@ -608,7 +611,9 @@
     <MESSAGE value="常用的数据查询操作" />
     <MESSAGE value="方法重载实例演示" />
     <MESSAGE value="常用的数据查询操作&#10;找到问题了，是Query.php的第65行，做拼接的时候，忘了FROM前后应该加上空格。" />
-    <option name="LAST_COMMIT_MESSAGE" value="常用的数据查询操作&#10;找到问题了，是Query.php的第65行，做拼接的时候，忘了FROM前后应该加上空格。" />
+    <MESSAGE value="类与对象进阶" />
+    <MESSAGE value="更新目录名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新目录名称" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

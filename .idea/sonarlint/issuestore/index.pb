@@ -119,3 +119,9 @@ H
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 H
 Class Advanced/Query.php,9\2\928961281ee9f4ee47dd19771ff99515617a7dae
+H
+Class Advanced/demo5.php,4\b\4bc334b940512f600e68b1a49931d1bce787cbb4
+H
+Class Advanced/demo4.php,2\6\261601a4f6e71e2ef015083f93052b1d0390d778
+M
+Documentation/对象进阶.md,f\3\f3cb73a6ce1b9a5b88932bf57153c620e5b15d6e
