@@ -93,8 +93,6 @@ V
 &Documentation/类与类的实例化.md,c\d\cd9bb1adfba8fa9aa58bac53b401da6ab27c607d
 \
 ,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
-M
-Documentation/对象进阶.md,f\3\f3cb73a6ce1b9a5b88932bf57153c620e5b15d6e
 G
 coures2/inc/connect.php,1\2\12a3f29fbb309a72fade4d7ad7cbb702a30e1573
 F
@@ -107,8 +105,6 @@ H
 Class Advanced/demo2.php,f\1\f1b0bdaab7861369b3a4ab679e26f617e8eca048
 H
 Class Advanced/demo3.php,6\f\6fb5d1360068141e3c495966932e60b0951e0383
-H
-Class Advanced/demo4.php,2\6\261601a4f6e71e2ef015083f93052b1d0390d778
 I
 course1/lesson2/index.php,7\5\750f423943f1f4c12b4e4d6772e0112210a0a066
 B
@@ -119,3 +115,7 @@ J
 Class and Object/demo5.php,9\1\91b51d9d4f5179fe2af44de76af7e7c8a50e5839
 H
 Class Advanced/demo1.php,1\a\1a380e89bded895b267a3ca74b2057f3073af484
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+H
+Class Advanced/Query.php,9\2\928961281ee9f4ee47dd19771ff99515617a7dae
