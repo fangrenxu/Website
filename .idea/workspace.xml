@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="更新目录名称">
-      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/demo1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/inc/Test1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/inc/Test2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/inc/Test3.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类自动加载的原理与实现">
+      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/demo2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -83,7 +80,7 @@
       <recent name="D:\phpstudy_pro\WWW\php\coures2\inc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.demo1.php">
+  <component name="RunManager" selected="PHP 脚本.demo2.php">
     <configuration name="Query.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Advanced Class/Query.php">
       <method v="2" />
     </configuration>
@@ -93,7 +90,7 @@
     <configuration name="demo1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class and Object/demo1.php">
       <method v="2" />
     </configuration>
-    <configuration name="demo4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class/demo4.php">
+    <configuration name="demo2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class and Object/demo2.php">
       <method v="2" />
     </configuration>
     <configuration name="demo5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Advanced Class/demo5.php">
@@ -104,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.demo2.php" />
         <item itemvalue="PHP 脚本.demo1.php" />
         <item itemvalue="PHP 脚本.Test1.php" />
         <item itemvalue="PHP 脚本.demo5.php" />
         <item itemvalue="PHP 脚本.demo6.php" />
-        <item itemvalue="PHP 脚本.demo4.php" />
       </list>
     </recent_temporary>
   </component>
@@ -224,14 +221,10 @@
       <workItem from="1623484614005" duration="11136000" />
       <workItem from="1623554272264" duration="5875000" />
       <workItem from="1623640750161" duration="2648000" />
-      <workItem from="1623648497662" duration="6669000" />
-    </task>
-    <task id="LOCAL-00116" summary="创建一个类的例子">
-      <created>1621945934142</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1621945934143</updated>
+      <workItem from="1623648497662" duration="8546000" />
+      <workItem from="1623736642203" duration="186000" />
+      <workItem from="1623739736564" duration="674000" />
+      <workItem from="1623740547055" duration="3770000" />
     </task>
     <task id="LOCAL-00117" summary="类的构造方法">
       <created>1621946791111</created>
@@ -569,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623649414608</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="类自动加载的原理与实现">
+      <created>1623671519143</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1623671519143</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +588,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建一个类的例子" />
     <MESSAGE value="类的构造方法" />
     <MESSAGE value="类的扩展（继承）" />
     <MESSAGE value="类的扩展（继承）&#10;子类继承父类，重写方法" />
@@ -613,7 +612,8 @@
     <MESSAGE value="常用的数据查询操作&#10;找到问题了，是Query.php的第65行，做拼接的时候，忘了FROM前后应该加上空格。" />
     <MESSAGE value="类与对象进阶" />
     <MESSAGE value="更新目录名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新目录名称" />
+    <MESSAGE value="类自动加载的原理与实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="类自动加载的原理与实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
