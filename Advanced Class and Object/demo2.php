@@ -1,5 +1,5 @@
 <?php
-//抽象类/具体类
+//细说抽象类/具体类
 abstract class Person1
 {
     protected $name;
