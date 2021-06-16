@@ -91,8 +91,6 @@ H
 Documentation/course2.md,6\8\68abc6b33d8ffdeb05c9d2d6bd33a14dd7ff01f1
 V
 &Documentation/类与类的实例化.md,c\d\cd9bb1adfba8fa9aa58bac53b401da6ab27c607d
-\
-,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
 G
 coures2/inc/connect.php,1\2\12a3f29fbb309a72fade4d7ad7cbb702a30e1573
 F
