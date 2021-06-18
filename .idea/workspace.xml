@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="抽象类/具体类">
-      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/demo3.php" afterDir="false" />
+    <list default="true" id="636fd8d6-7cb4-40b3-b42e-32f407505c07" name="默认变更列表" comment="类与对象进阶">
+      <change afterPath="$PROJECT_DIR$/Advanced Class and Object/staff.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentation/类与对象进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/类与对象进阶.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,28 +227,10 @@
       <workItem from="1623740547055" duration="8393000" />
       <workItem from="1623813431879" duration="2408000" />
       <workItem from="1623828151024" duration="19000" />
-      <workItem from="1623828176554" duration="4383000" />
-    </task>
-    <task id="LOCAL-00118" summary="类的构造方法">
-      <created>1621949744792</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1621949744792</updated>
-    </task>
-    <task id="LOCAL-00119" summary="类的构造方法">
-      <created>1621951752067</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1621951752068</updated>
-    </task>
-    <task id="LOCAL-00120" summary="类的构造方法">
-      <created>1622012097431</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1622012097431</updated>
+      <workItem from="1623828176554" duration="5916000" />
+      <workItem from="1623902049487" duration="609000" />
+      <workItem from="1623920379810" duration="1809000" />
+      <workItem from="1623986950734" duration="2989000" />
     </task>
     <task id="LOCAL-00121" summary="类的构造方法">
       <created>1622015310406</created>
@@ -573,7 +554,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623745494548</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="细说抽象类/具体类">
+      <created>1623836182613</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1623836182614</updated>
+    </task>
+    <task id="LOCAL-00168" summary="细说接口与实现过程">
+      <created>1623836225636</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1623836225636</updated>
+    </task>
+    <task id="LOCAL-00169" summary="类与对象进阶">
+      <created>1623836293685</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1623836293685</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,8 +594,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="类的扩展（继承）" />
-    <MESSAGE value="类的扩展（继承）&#10;子类继承父类，重写方法" />
     <MESSAGE value="类的成员可见性（封装）" />
     <MESSAGE value="在继承上下文中的封装" />
     <MESSAGE value="类与对象的基本知识文档" />
@@ -613,11 +613,13 @@
     <MESSAGE value="常用的数据查询操作" />
     <MESSAGE value="方法重载实例演示" />
     <MESSAGE value="常用的数据查询操作&#10;找到问题了，是Query.php的第65行，做拼接的时候，忘了FROM前后应该加上空格。" />
-    <MESSAGE value="类与对象进阶" />
     <MESSAGE value="更新目录名称" />
     <MESSAGE value="类自动加载的原理与实现" />
     <MESSAGE value="抽象类/具体类" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽象类/具体类" />
+    <MESSAGE value="细说抽象类/具体类" />
+    <MESSAGE value="细说接口与实现过程" />
+    <MESSAGE value="类与对象进阶" />
+    <option name="LAST_COMMIT_MESSAGE" value="类与对象进阶" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

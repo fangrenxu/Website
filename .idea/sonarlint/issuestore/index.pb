@@ -118,8 +118,6 @@ H
 H
 Advanced Class/demo4.php,1\d\1d786eaddab80edfa9f5abeb7f74d84b8a726bc5
 H
-Advanced Class/demo5.php,f\a\fa88093916e180792a400a964ccf3c68fb9f4119
-H
 Advanced Class/Query.php,4\8\480f67be32736e5855fd4ab9b72e00438801779c
 H
 Advanced Class/demo1.php,8\6\864482f67a035526dba4358fe7678a20b3a9e3c8
@@ -129,3 +127,9 @@ W
 'Advanced Class and Object/inc/Test2.php,5\5\5583dbf1102d5ac27d51fd96bb83b6a7d73b3dec
 W
 'Advanced Class and Object/inc/Test3.php,e\c\ec831d3795a12ad24a5778b2bd10d53afa457a74
+S
+#Advanced Class and Object/demo1.php,b\1\b1aff2f3093e19ed825429a34b889d2ebbf877d7
+S
+#Advanced Class and Object/demo2.php,b\e\be45be6d438081b1d845f3463045d69dc79fc9c6
+\
+,Documentation/类与对象的基本知识.md,7\9\79b5e76e1dd818d47d9f5cf3b1c1449fee1ee7c4
